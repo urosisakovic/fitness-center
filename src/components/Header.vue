@@ -1,5 +1,4 @@
 <template>
-  <div id="app">
     <header class="site-header">
 			<nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
 				<div class="container">
@@ -23,7 +22,6 @@
 				</div>
 			</nav>
     </header>
-  </div>
 </template>
 
 <style>

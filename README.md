@@ -9,14 +9,14 @@ Follow this [link](https://nodejs.org/en/download/) and download Node.js.
 ```
 https://github.com/urosisakovic/fitness-center.git
 ```
-Navigate through command line to a directory containg your repo.
+Navigate through the command line to a directory containg your repo.
 
-### Install dependencies thorugh Node Package Manager.
+### Install dependencies through Node Package Manager.
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile and hot-reload for development
 ```
 npm run serve
 ```

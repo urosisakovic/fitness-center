@@ -8,7 +8,7 @@
 					</button>
 					<div class="collapse navbar-collapse" id="navbarToggle">
 						<div class="navbar-nav mr-auto">
-							<a class="nav-item nav-link" href="#"> Home</a>
+							<router-link class="nav-item nav-link" to="/home"> Home</router-link>
 							<a class="nav-item nav-link" href="#"> Standings </a>
 							<a class="nav-item nav-link" href="#"> Results </a>
 							<a class="nav-item nav-link" href="#"> Schedule </a>

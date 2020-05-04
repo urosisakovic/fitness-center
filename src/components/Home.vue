@@ -7,7 +7,3 @@
     </div>
   </main>
 </template>
-
-<style>
-  @import '../assets/styles/main.css';
-</style>

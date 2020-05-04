@@ -34,8 +34,3 @@
 		</div>
 	</footer>
 </template>
-
-<style>
-  @import '../assets/styles/main.css';
-</style>
-

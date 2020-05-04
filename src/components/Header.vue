@@ -23,7 +23,3 @@
 			</nav>
     </header>
 </template>
-
-<style>
-	@import '../assets/styles/main.css';
-</style>

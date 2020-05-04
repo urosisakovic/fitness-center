@@ -1,6 +1,17 @@
-# fitness-center
+# Fitness Center
 
 ## Project setup
+
+### Download Node.js
+Follow this [link](https://nodejs.org/en/download/) and download Node.js.
+
+### Clone this repo
+```
+https://github.com/urosisakovic/fitness-center.git
+```
+Navigate through command line to a directory containg your repo.
+
+### Install dependencies thorugh Node Package Manager.
 ```
 npm install
 ```
@@ -9,16 +20,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

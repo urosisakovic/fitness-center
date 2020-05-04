@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div>
     <app-header></app-header>
-    <h1>{{ title }}</h1>
+    <router-view></router-view>
     <app-footer></app-footer>
   </div>
 </template>
@@ -17,7 +17,6 @@ export default {
   },
   data() {
     return {
-      title: 'Fitness Center'
     }
   }
 }

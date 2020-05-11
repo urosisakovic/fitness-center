@@ -1,7 +1,9 @@
 <template>
     <div>
         <app-sidebar></app-sidebar>
+        <div id="content">
         <h1>{{content}}</h1>
+        </div>
     </div>
 </template>
 

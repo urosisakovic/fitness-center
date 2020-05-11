@@ -1,10 +1,10 @@
 {
     "images": [
         {
-            "file": "src/assets/images/0.png"
+            "file": "0.png"
         },
         {
-            "file": "src/assets/images/1.png"
+            "file": "1.png"
         }
     ],
     "text": "Foo barFoo barFoo barFoo barFoo barFoo barFoo barFoo barFoo barFoo bar",

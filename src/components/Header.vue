@@ -1,7 +1,7 @@
 <template>
     <header class="site-header">
 			<nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-				<div class="container">
+				<div class="container-fluid">
 					<router-link class="navbar-brand mr-4" to="/home">GYM</router-link>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>

@@ -1,6 +1,6 @@
 <template>
-	<footer class="bg-steel page-footer font-small blue pt-4">
-		<div class="container-fluid text-center text-md-left">
+	<footer class="container-fluid bg-steel page-footer font-small blue pt-4">
+		<div class="text-center text-md-left">
 			<div class="row">
 				<div class="col-md-6 mt-md-0 mt-3">
 					<h5 class="text-uppercase">GYM</h5>
@@ -26,7 +26,7 @@
 			</div>  
 		</div>
 
-		<div class="footer-copyright text-center py-3">© 2020, Nikola Barjaktarevic, Uros Isakovic <br>
+		<div class="footer-copyright text-center">© 2020, Nikola Barjaktarevic, Uros Isakovic <br>
 			Deparment for Software Engineering, University of Belgrade, School of Electrical Engineering
 		</div>
 	</footer>

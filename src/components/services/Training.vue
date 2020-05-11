@@ -1,7 +1,8 @@
 <template>
   <div id="wrapper">
     <app-sidebar></app-sidebar>
-    <h1>Training</h1>
+    <h1>{{ title }}</h1>
+    <p>{{ text }}</p>
   </div>
 </template>
 
@@ -13,8 +14,7 @@ export default {
     'app-sidebar': Sidebar
   },
   data() {
-    return {
-    }
+    return require('../../assets/content/en/services/training.json');
   }
 }
 </script>

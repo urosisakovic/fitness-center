@@ -27,7 +27,7 @@
 		</div>
 
 		<div class="footer-copyright text-center">© 2020, Nikola Barjaktarevic, Uros Isakovic <br>
-			Deparment for Software Engineering, University of Belgrade, School of Electrical Engineering
+			Department for Software Engineering, University of Belgrade, School of Electrical Engineering
 		</div>
 	</footer>
 </template>

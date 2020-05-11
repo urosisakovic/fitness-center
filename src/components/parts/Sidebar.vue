@@ -5,7 +5,7 @@
         </div>
 
         <ul class="list-unstyled components">
-            <li class="active">
+            <li>
                 <a href="#yoga-submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Yoga</a>
                 <ul class="collapse list-unstyled" id="yoga-submenu">
                     <li><a href="#">Yoga 1</a></li>

@@ -121,7 +121,6 @@ ul ul a{
 #content{
 	width: 100%;
 	padding: 20px;
-	min-height: 100vh;
 	transition: all 0.3s;
 }
 
@@ -161,7 +160,7 @@ body {
 	}
 	
 	.page-footer {
-		height: 550px; /* Set the fixed height of the footer here */
+		height: 500px; /* Set the fixed height of the footer here */
 	}
 	
 }

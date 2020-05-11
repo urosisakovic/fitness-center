@@ -1,0 +1,22 @@
+{
+    "images": [
+        {
+            "file": "src/assets/images/0.png"
+        },
+        {
+            "file": "src/assets/images/1.png"
+        }
+    ],
+    "text": "Foo barFoo barFoo barFoo barFoo barFoo barFoo barFoo barFoo barFoo bar",
+    "best_trainings": [
+        {
+            "name": "Yoga"
+        },
+        {
+            "name": "Pilates"
+        },
+        {
+            "name": "Core"
+        }
+    ]
+}

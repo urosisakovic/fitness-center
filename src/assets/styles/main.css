@@ -83,24 +83,29 @@ a:focus{
 	padding: 10px;
 }
 
+#sidebar ul li router-link,
 #sidebar ul li a{
 	padding: 10px;
 	font-size: 1.1em;
 	display: block;
 }
 
+#sidebar ul li router-link:hover,
 #sidebar ul li a:hover{
 	color: #ffffff;
 	background: #111111;
 }
 
+#sidebar ul li.active>router-link,
+router-link[aria-expanded="true"],
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
 	color: #fff;
 	background: #111111;
 }
 
-a[data-toggle="collapse"]{
+a[data-toggle="collapse"],
+router-link[data-toggle="collapse"]{
 	position: relative;
 }
 
@@ -112,6 +117,7 @@ a[data-toggle="collapse"]{
 	transform: translateY(-50%);
 }
 
+ul ul router-link,
 ul ul a{
 	font-size: 0.9em !important;
 	padding-left: 30px !important;

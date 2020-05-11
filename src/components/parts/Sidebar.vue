@@ -8,40 +8,40 @@
             <li>
                 <a href="#yoga-submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Yoga</a>
                 <ul class="collapse list-unstyled" id="yoga-submenu">
-                    <li><a href="#">Yoga 1</a></li>
-                    <li><a href="#">Yoga 2</a></li>
-                    <li><a href="#">Yoga 3</a></li>
-                    <li><a href="#">Yoga 4</a></li>
+                    <li><router-link to="/services/training/yoga/yoga-1">Yoga1</router-link></li>
+                    <li><router-link to="/services/training/yoga/yoga-2">Yoga2</router-link></li>
+                    <li><router-link to="/services/training/yoga/yoga-3">Yoga3</router-link></li>
+                    <li><router-link to="/services/training/yoga/yoga-4">Yoga4</router-link></li>
                 </ul>
             </li>
 
             <li>
                 <a href="#pilates-submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pilates</a>
                 <ul class="collapse list-unstyled" id="pilates-submenu">
-                    <li><a href="#">Pilates 1</a></li>
-                    <li><a href="#">Pilates 2</a></li>
-                    <li><a href="#">Pilates 3</a></li>
-                    <li><a href="#">Pilates 4</a></li>
+                    <li><router-link to="/services/training/pilates/pilates-1">Pilates1</router-link></li>
+                    <li><router-link to="/services/training/pilates/pilates-2">Pilates2</router-link></li>
+                    <li><router-link to="/services/training/pilates/pilates-3">Pilates3</router-link></li>
+                    <li><router-link to="/services/training/pilates/pilates-4">Pilates4</router-link></li>
                 </ul>
             </li>
 
             <li>
                 <a href="#core-submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Core</a>
                 <ul class="collapse list-unstyled" id="core-submenu">
-                    <li><a href="#">Core 1</a></li>
-                    <li><a href="#">Core 2</a></li>
-                    <li><a href="#">Core 3</a></li>
-                    <li><a href="#">Core 4</a></li>
+                    <li><router-link to="/services/training/core/core-1">Core1</router-link></li>
+                    <li><router-link to="/services/training/core/core-2">Core2</router-link></li>
+                    <li><router-link to="/services/training/core/core-3">Core3</router-link></li>
+                    <li><router-link to="/services/training/core/core-4">Core4</router-link></li>
                 </ul>
             </li>
 
             <li>
                 <a href="#cardio-submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Cardio</a>
                 <ul class="collapse list-unstyled" id="cardio-submenu">
-                    <li><a href="#">Cardio 1</a></li>
-                    <li><a href="#">Cardio 2</a></li>
-                    <li><a href="#">Cardio 3</a></li>
-                    <li><a href="#">Cardio 4</a></li>
+                    <li><router-link to="/services/training/cardio/cardio-1">Cardio1</router-link></li>
+                    <li><router-link to="/services/training/cardio/cardio-2">Cardio1</router-link></li>
+                    <li><router-link to="/services/training/cardio/cardio-3">Cardio1</router-link></li>
+                    <li><router-link to="/services/training/cardio/cardio-4">Cardio1</router-link></li>
                 </ul>
             </li>
         </ul>

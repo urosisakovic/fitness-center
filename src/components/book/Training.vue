@@ -1,20 +1,5 @@
 <template>
   <div id="wrapper">
-    <app-content v-bind:pageContent="pageContent"></app-content>
+    <h1>Book training</h1>
   </div>
 </template>
-
-<script>
-import TrainingL1 from '../parts/TrainingL1.vue'
-
-export default {
-  components: {
-    'app-content': TrainingL1
-  },
-  data() {
-    return {
-      pageContent: require("../../assets/content/en/services/training.json")
-    }
-  }
-}
-</script>

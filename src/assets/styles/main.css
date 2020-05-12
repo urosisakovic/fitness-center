@@ -56,24 +56,23 @@ a:focus{
 }
 
 #wrapper{
-	margin-top: -3vh;
+	display: flex;
 	text-decoration: none;
 	transition: all 0.3s;
+
 	overflow: hidden;
-	display: flex;
+	margin-top: -3vh;
 }
 
 #sidebar{
 	min-width: 250px;
 	max-width: 250px;
-	margin-bottom: -5000px;
-	padding-bottom: 5000px;
 	background: #333333;
 	color: #bbbbbb;
 	transition: all 0.3s;
 }
 
-.sidebar-header{
+#sidebar .sidebar-header{
 	padding: 20px;
 }
 
@@ -128,6 +127,12 @@ ul ul a{
 	background: #222222;
 }
 
+#content{
+	width: 100%;
+	padding: 20px;
+	min-height: 72vh;
+	transition: all 0.3s;
+}
 
 @media (max-width: 768px) {
     #sidebar {

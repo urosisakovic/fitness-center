@@ -1,4 +1,47 @@
 {
-    "title": "Yoga2",
-    "text": "yoga2"
+    "name": "Yoga-2",
+    "desc": "yoga2 yoga2 yoga2 yoga2yoga2 yoga2yoga2 yoga2yoga2 yoga2yoga2 yoga2yoga2 yoga2yoga2 yoga2yoga2 yoga2yoga2 yoga2",
+    "duration": "60",
+    "diff": "3",
+    "avg_mark": "4.2",
+    "comments": [
+        {
+            "id": "0",
+            "author": "Uros",
+            "text": "uros' comment uros' comment uros' comment uros' comment uros' comment uros' comment uros' comment",
+            "date": "22-05-2020"
+        },
+        {
+            "id": "2",
+            "author": "Nikola",
+            "text": "nikola's comment nikola's commentnikola's comment nikola's comment nikola's comment nikola's comment nikola's comment",
+            "date": "08-05-2020"
+        }
+    ],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "2",
+            "file": "2.png",
+            "alt": "Image 2"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "2",
+            "ogg": "2.ogg",
+            "mp4": "2.mp4",
+            "alt": "Video 2"
+        }
+    ]
 }

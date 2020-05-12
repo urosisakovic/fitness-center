@@ -173,3 +173,13 @@ body {
 	}
 	
 }
+
+/* Google map */
+#google-map{
+	margin-top: -3vh;
+	margin-bottom: 3vh;
+}
+
+body {
+	overflow-x: hidden;
+}

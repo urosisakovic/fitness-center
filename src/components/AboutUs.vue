@@ -1,6 +1,6 @@
 <template>
-  <div id="wrapper">
-    <h1>About</h1>
+  <div>
+    <h1>About us</h1>
   </div>
 </template>
 

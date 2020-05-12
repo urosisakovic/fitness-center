@@ -28,8 +28,9 @@
 									<router-link to="/book/massage" class="dropdown-item">Massage</router-link>
 								</div>
 							</div>
-							<router-link class="nav-item nav-link" to="/about"> About</router-link>
-							<router-link class="nav-item nav-link" to="/account"> Account</router-link>
+							<router-link class="nav-item nav-link" to="/about"> About Us</router-link>
+							<router-link class="nav-item nav-link" to="/contact"> Contact</router-link>
+							<router-link class="nav-item nav-link" to="/account"> My Account</router-link>
 						</div>
 					</div>
 				</div>

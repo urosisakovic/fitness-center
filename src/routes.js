@@ -1,6 +1,7 @@
 import Home from './components/Home.vue'
-import About from './components/About.vue'
+import AboutUs from './components/AboutUs.vue'
 import Account from './components/Account.vue'
+import Contact from './components/Contact.vue'
 import ServicesTraining from './components/services/Training.vue'
 import ServicesNutrition from './components/services/Nutrition.vue'
 import ServicesMassage from './components/services/Massage.vue'
@@ -13,9 +14,10 @@ import TrainingLvl2 from './components/services/TrainingLvl2.vue'
 export default [
     {path: '/', component: Home},
     {path: '/home', component: Home},
-    {path: '/about', component: About},
+    {path: '/about', component: AboutUs},
     {path: '/account', component: Account},
-    
+    {path: '/contact', component: Contact},
+
     // Booking
     {path: '/book/training', component: BookTraining},
     {path: '/book/nutrition', component: BookMasNut, props: {content: require("./assets/content/en/book/nutrition.json")}},

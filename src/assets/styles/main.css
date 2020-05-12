@@ -60,6 +60,7 @@ a:focus{
 	text-decoration: none;
 	transition: all 0.3s;
 	overflow: hidden;
+	display: flex;
 }
 
 #sidebar{

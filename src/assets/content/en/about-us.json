@@ -1,3 +1,42 @@
 {
-    
+    "paragraphs": [
+        {
+            "id": "0",
+            "text": "lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal "
+        },
+        {
+            "id": "1",
+            "text": "lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal "
+        },
+        {
+            "id": "2",
+            "text": "lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal "
+        },
+        {
+            "id": "3",
+            "text": "lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal lalal "
+        }
+    ],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ]
 }

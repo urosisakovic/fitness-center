@@ -12,13 +12,6 @@
                 <h4 class="col-xl-4"> Average user mark: {{content.avg_mark}} </h4>
             </div>
 
-            <h2>Comments</h2>
-            <p v-for="comment in content.comments" :key="comment.id">
-                {{comment.author}}<br />
-                {{comment.text}}<br />
-                {{comment.date}}
-            </p>
-
             <!--Gallery-->
             <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
@@ -48,6 +41,17 @@
 
             </div>
             <!--/Gallery-->
+
+            <h2>Comments</h2>
+             <article v-for="comment in content.comments" :key="comment.id" class="media content-section">
+                <div class="media-body">
+                <div class="article-metadata">
+                    <small class="text-muted">{{comment.date}}</small>
+                </div>
+                <h2 class="article-title">{{comment.author}}</h2>
+                <p class="article-content">{{comment.text}}</p>
+                </div>
+            </article>
 
         </div>
     </div>

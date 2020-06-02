@@ -183,3 +183,27 @@ body {
 body {
 	overflow-x: hidden;
 }
+
+/* Comments */
+.article-content {
+	white-space: pre-line;
+}
+
+.article-metadata {
+	padding-bottom: 1px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #bbbbbb
+}
+
+.article-svg {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.content-section {
+	background: #333333;
+	padding: 10px 20px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}

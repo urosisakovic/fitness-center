@@ -13,7 +13,7 @@ import TrainingLvl2 from './components/services/TrainingLvl2.vue'
 
 export default [
     {path: '/', component: Home},
-    {path: '/home', component: Home},
+    {path: '/home', component: Home, props: {content: require("./assets/content/en/home.json")}},
     {path: '/about', component: AboutUs, props: {content: require("./assets/content/en/about-us.json")}},
     {path: '/account', component: Account},
     {path: '/contact', component: Contact},

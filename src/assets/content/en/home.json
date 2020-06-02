@@ -2,14 +2,26 @@
     "images": [
         {
             "id": "0",
-            "file": "0.png"
+            "file": "0.png",
+            "alt": "Image 0"
         },
         {
             "id": "1",
-            "file": "1.png"
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
         }
     ],
-    "text": "Foo barFoo barFoo barFoo barFoo barFoo barFoo barFoo barFoo barFoo bar",
+    "text": "You know what you’re getting at most high street gyms: nondescript dance music, locker key cards you don’t know quite what to do with, and second degree burns from house towels which feel like sandpaper.  Sure, you can fork out an extra £20 per month, resulting in a few mod cons and classes here and there, but on the whole, it’s all very, very identikit. Even the big chains can feel a little, well, meh.",
     "best_trainings": [
         {
             "name": "Yoga"

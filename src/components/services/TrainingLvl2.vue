@@ -12,6 +12,7 @@
             <h1>Images</h1>
             <p v-for="image in content.images" :key="image.id">
                 {{image.file}}
+                <img :src="getImgUrl(image)">
             </p>
 
             <h1>Videos</h1>
@@ -43,6 +44,11 @@ export default {
     props: {
         content: {
             required: true
+        }
+    },
+    methods: {
+        getImgUrl: function(pic) {
+            return require('../../assets/images/' + pic.file)
         }
     }
 }

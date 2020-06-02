@@ -31,9 +31,40 @@
 							<router-link class="nav-item nav-link" to="/about"> About Us</router-link>
 							<router-link class="nav-item nav-link" to="/contact"> Contact</router-link>
 							<router-link class="nav-item nav-link" to="/account"> My Account</router-link>
+							<router-link class="nav-item nav-link" :to="swapLanguageURL().url"> SR|EN </router-link>
 						</div>
 					</div>
 				</div>
 			</nav>
     </header>
 </template>
+
+<script>
+export default {
+		data() {
+        return {
+        }
+    },
+    methods: {
+        swapLanguageURL: function() {
+						var currUrl = this.$route.path;
+						console.log(currUrl);
+						var newUrl = "";
+
+						if (currUrl.startsWith("/en")) {
+							newUrl = "/sr" + currUrl.substring(3);
+						}
+						else if (currUrl.startsWith("/sr")) {
+							newUrl = "/en" + currUrl.substring(3);
+						}
+						else {
+							newUrl = "/sr" + currUrl;
+						}
+
+						return {
+							"url": newUrl
+						};
+        }
+    }
+}
+</script>

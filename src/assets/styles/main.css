@@ -30,6 +30,18 @@ body {
   color: #ffffff;
 }
 
+.dropdown-menu {
+	background: #333333;
+	color: #bbbbbb;
+	transition: all 0.3s;
+}
+
+.dropdown-item {
+	background: #333333;
+	color: #bbbbbb;
+	transition: all 0.3s;
+}
+
 /* Side Bar*/
 body{
 	font-family: 'Poppins', sans-serif;
@@ -112,7 +124,7 @@ router-link[data-toggle="collapse"]{
 	position: relative;
 }
 
-.dropdown-toggle::after{
+.dropdown-toggle-sb::after{
 	display: block;
 	position: absolute;
 	top: 50%;

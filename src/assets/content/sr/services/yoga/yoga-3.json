@@ -1,47 +1,4 @@
 {
-    "name": "Yoga-3",
-    "desc": "yoga3 yoga3 yoga3 yoga3yoga3 yoga3yoga3 yoga3yoga3 yoga3yoga3 yoga3yoga3 yoga3yoga3 yoga3yoga3 yoga3yoga3 yoga3",
-    "duration": "60",
-    "diff": "3",
-    "avg_mark": "4.3",
-    "comments": [
-        {
-            "id": "0",
-            "author": "Uros",
-            "text": "uros' comment uros' comment uros' comment uros' comment uros' comment uros' comment uros' comment",
-            "date": "33-05-3030"
-        },
-        {
-            "id": "3",
-            "author": "Nikola",
-            "text": "nikola's comment nikola's commentnikola's comment nikola's comment nikola's comment nikola's comment nikola's comment",
-            "date": "08-05-3030"
-        }
-    ],
-    "images": [
-        {
-            "id": "0",
-            "file": "0.png",
-            "alt": "Image 0"
-        },
-        {
-            "id": "3",
-            "file": "3.png",
-            "alt": "Image 3"
-        }
-    ],
-    "videos": [
-        {
-            "id": "0",
-            "ogg": "0.ogg",
-            "mp4": "0.mp4",
-            "alt": "Video 0"
-        },
-        {
-            "id": "3",
-            "ogg": "3.ogg",
-            "mp4": "3.mp4",
-            "alt": "Video 3"
-        }
-    ]
+    "name": "Srpski",
+    "desc": "Srpski"
 }

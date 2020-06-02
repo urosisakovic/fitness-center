@@ -5,6 +5,7 @@ import Routes from './routes.js'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/styles/main.css';
+import './assets/styles/gallery.css';
 
 Vue.use(VueRouter)
 const router = new VueRouter({

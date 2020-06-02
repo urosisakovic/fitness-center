@@ -2,30 +2,53 @@
     <div id="wrapper">
         <app-sidebar></app-sidebar>
         
-        <div id="content">
+        <div class="container" id="content">
             <h1>{{content.name}} </h1>
             <p> {{content.desc}} </p>
-            <p> Duration: {{content.duration}}min </p>
-            <p> Difficulty: {{content.diff}} </p>
-            <p> Average user mark: {{content.avg_mark}} </p>
 
-            <h1>Images</h1>
-            <p v-for="image in content.images" :key="image.id">
-                {{image.file}}
-                <img :src="getImgUrl(image)">
-            </p>
+            <div class="row">
+                <h4 class="col-xl-4"> Duration: {{content.duration}} minutes </h4>
+                <h4 class="col-xl-4"> Difficulty: {{content.diff}} </h4>
+                <h4 class="col-xl-4"> Average user mark: {{content.avg_mark}} </h4>
+            </div>
 
-            <h1>Videos</h1>
-            <p v-for="video in content.videos" :key="video.id">
-                {{video.ogg}}
-            </p>
-
-            <h1>Comments</h1>
+            <h2>Comments</h2>
             <p v-for="comment in content.comments" :key="comment.id">
                 {{comment.author}}<br />
                 {{comment.text}}<br />
                 {{comment.date}}
             </p>
+
+            <!--Gallery-->
+            <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+
+                <div class="controls-top">
+                    <a class="control-button" href="#multi-item-example" data-slide="prev"><i>&lt;</i></a>
+                    <a class="control-button" href="#multi-item-example" data-slide="next"><i>&gt;</i></a>
+                </div>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3 mb-3" v-for="image in content.images" :key="image.id">
+                            <div class="card">
+                            <img class="img-fluid" :src="getImgUrl(image)">
+                                alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3 mb-3" v-for="image in content.images" :key="image.id">
+                            <div class="card">
+                            <img class="img-fluid" :src="getImgUrl(image)">
+                                alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/Gallery-->
+
         </div>
     </div>
 </template>

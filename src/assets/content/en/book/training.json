@@ -1,3 +1,150 @@
 {
-    
+    "title": "Book a training",
+    "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    "trainings": [
+        {
+            "type": "yoga",
+            "trainings": [
+                {
+                    "subtype": "yoga-1",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "yoga-1",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "yoga-2",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "yoga-2",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "yoga-3",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "yoga-3",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                }
+            ]
+        },
+
+        {
+            "type": "pilates",
+            "trainings": [
+                {
+                    "subtype": "pilates-1",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "pilates-1",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "pilates-2",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "pilates-2",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "pilates-3",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "pilates-3",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                }
+            ]
+        },
+
+        {
+            "type": "core",
+            "trainings": [
+                {
+                    "subtype": "core-1",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "core-1",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "core-2",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "core-2",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "core-3",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "core-3",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                }
+            ]
+        },
+
+        {
+            "type": "cardio",
+            "trainings": [
+                {
+                    "subtype": "cardio-1",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "cardio-1",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "cardio-2",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "core-2",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "cardio-3",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                },
+                {
+                    "subtype": "cardio-3",
+                    "date": "20-06-2020",
+                    "time": "20:00"
+                }
+            ]
+        }
+
+    ]
 }

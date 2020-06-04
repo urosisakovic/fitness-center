@@ -1,4 +1,51 @@
+
 {
-    "title": "Srpski",
-    "text": "Srpski"
+    "name": "Biciklizam",
+    "desc": "Intervali na stacionarnom biciklu odličan su način da maksimizirate sagorevanje kalorija u minimalnom vremenu. Držite intenzitet zaista visok u intervalima nekoliko minuta, a zatim usporite minut neprestano ponavljajući te intervale onoliko dugo koliko možete.",
+    "duration": "90",
+    "diff": "5",
+    "avg_mark": "4.8",
+    "comments": [{
+        "id": "0",
+        "author": "Uros Isakovic",
+        "text": "Sounds easy but its far from it. Amazing!",
+        "date": "12-05-2020"
+    }
+],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 3"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 4"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

@@ -1,4 +1,57 @@
 {
-    "name": "Srpski",
-    "desc": "Srpski"
+    "name": "Hatha Joga",
+    "desc": "Hatha joga je grana joge. Sanskritska reč haṭha hatha doslovno znači 'sila' i na taj način aludira na sistem fizičkih tehnika. U Indiji je hatha joga u narodnoj tradiciji povezana sa jogama Nathe Sampradaie preko tradicionalnog osnivača Matsiendranath. Skoro svi hathaiogički tekstovi pripadaju Nath-ovim siddhama, a važni su pripisani učenici Matsiendranath, Gorakhnathu ili Gorakshanathu. Matsiendranath, takođe poznat kao Minanath ili Minapa na Tibetu, slavi se kao svetac u školama hinduističke i budističke tantričke i hatha joge. Međutim, James Mallinson povezuje hatha jogu sa Dashhanami Sampradaia-om i mističnom figurom Dattatreia. Prema Dattatreia Joga Sastra, postoje dva oblika hatha joge: jedan koji praktikuje Iajnavalkia koji se sastoji od osam udova ashtanga joge i drugi koji praktikuje Kapila.",
+    "duration": "45",
+    "diff": "2",
+    "avg_mark": "3.7",
+    "comments": [
+        {
+            "id": "0",
+            "author": "Marko Divjak",
+            "text": "5/5 for me, just what i was looking for.",
+            "date": "12-05-2020"
+        },
+        {
+            "id": "1",
+            "author": "Djordje Vucinic",
+            "text": "Not my cup of tea, might try karate instead.",
+            "date": "08-05-2020"
+        }
+    ],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

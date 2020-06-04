@@ -1,4 +1,50 @@
 {
-    "title": "Srpski",
-    "text": "Srpski"
+    "name": "Intra-abdominalni pritisak",
+    "desc": "Mnoge studije u prošlosti dobro su dokumentovale povezanost između jakog jezgra i zdrave kičme. Neke od ovih studija uspele su da kvantifikuju efekte antagonizirajućeg trbušnog mišića na stabilizaciju lumbalne kičme povećanjem količine intra-trbušnog pritiska kako bi se održala ravna lumbalna kičma i izbeglo zaobljivanje tokom fizičkih aktivnosti.",
+    "duration": "45",
+    "diff": "2",
+    "avg_mark": "3.5",
+    "comments": [{
+        "id": "0",
+        "author": "Marko Divjak",
+        "text": "Not that hard, but can't see much improvement either.",
+        "date": "12-05-2020"
+    }
+],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

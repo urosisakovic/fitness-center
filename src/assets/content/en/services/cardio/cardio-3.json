@@ -1,4 +1,51 @@
+
 {
-    "title": "Cardio3",
-    "text": "cardio3"
+    "name": "Cycling",
+    "desc": "Doing intervals on a stationary bike is a great way to maximize your calorie burn in minimum time. 'Keep the intensity really high on the intervals for a couple of minutes, then slow down for a minute or so, continually repeating these intervals for as long as you can.'",
+    "duration": "90",
+    "diff": "5",
+    "avg_mark": "4.8",
+    "comments": [{
+        "id": "0",
+        "author": "Uros Isakovic",
+        "text": "Sounds easy but its far from it. Amazing!",
+        "date": "12-05-2020"
+    }
+],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 3"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 4"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

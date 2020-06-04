@@ -1,4 +1,46 @@
 {
-    "title": "Pilates2",
-    "text": "pilates2"
+    "name": "Mat Pilates",
+    "desc": "The exercises in mat Pilates are performed with your body and a yoga mat in lieu of machines and equipment. Mat Pilates focuses on your core, making it beneficial for those with back pain. The movements in mat Pilates are based on the mat exercises in the classical Pilates system.",
+    "duration": "60",
+    "diff": "4",
+    "avg_mark": "4.6",
+    "comments": [
+        
+    ],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

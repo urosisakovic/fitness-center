@@ -1,4 +1,44 @@
 {
-    "title": "Pilates1",
-    "text": "pilates1"
+    "name": "Classical Pilates",
+    "desc": "Classical Pilates follows the original system Joseph Pilates created in the 1920s and incorporates both mat and apparatus work. 'Classical varies from other forms of Pilates, because it means that I teach in a traditional order, which includes transitions between exercises,' Pabon says. That makes this type of Pilates good for practitioners who thrive on structure and predictability in their workouts.",
+    "duration": "60",
+    "diff": "3",
+    "avg_mark": "4.2",
+    "comments": [],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

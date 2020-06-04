@@ -1,4 +1,51 @@
 {
-    "title": "Srpski",
-    "text": "Srpski"
+    "name": "Reformer Pilates",
+    "desc": "Ova vrsta pilatesa nudi slične prednosti jačanja pilatesa za jačanje jezgra, ali koristi reformator, mašinu sa okvirom u obliku kreveta, platformu i set opruga. Mnoge vežbe na reformatoru iste su kao i vežbe za podloge, ali izvedene su uz dodatni otpor opruga, kaiševa i užadi.",
+    "duration": "45",
+    "diff": "5",
+    "avg_mark": "3.9",
+    "comments": [
+        {
+            "id": "0",
+            "author": "Anja Markovic",
+            "text": "Really hard, but at the same time, really beneficial.",
+            "date": "12-05-2020"
+        }
+    ],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

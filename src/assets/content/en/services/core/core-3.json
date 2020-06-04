@@ -1,4 +1,50 @@
 {
-    "title": "Core3",
-    "text": "core3"
+    "name": "Martial Arts Core Excercises",
+    "desc": "Core workouts are used to help a martial artist’s rotational or twisting power which contributes to stronger kicks, punches and grappling techniques. Martial artists use these core exercises in order to strengthen their abs, obliques and lower back. Moreover, stronger core muscles allow martial artists to better absorb hits (i.e. withstand punches to the stomach).",
+    "duration": "90",
+    "diff": "5",
+    "avg_mark": "4.7",
+    "comments": [{
+        "id": "0",
+        "author": "Uros Isakovic",
+        "text": "Only for the true tryhards.",
+        "date": "12-05-2020"
+    }
+],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

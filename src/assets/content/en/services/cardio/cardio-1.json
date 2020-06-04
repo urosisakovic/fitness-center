@@ -1,4 +1,50 @@
 {
-    "title": "Cardio1",
-    "text": "cardio1"
+    "name": "Sprinting",
+    "desc": "Here’s the thing about running: If you don’t ever run fast, you’re never going to get faster. So if you’re trying to improve your running performance—even if it’s just to get those miles over with more quickly—then you need to incorporate sprint workouts into your routine. The way you do that is with speedwork.",
+    "duration": "45",
+    "diff": "4",
+    "avg_mark": "4.1",
+    "comments": [{
+        "id": "0",
+        "author": "Nikola Barjaktarevic",
+        "text": "Really useful if you are looking to improve your sprinting speed and durability in general.",
+        "date": "12-05-2020"
+    }
+],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

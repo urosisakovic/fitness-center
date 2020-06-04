@@ -1,4 +1,50 @@
 {
-    "title": "Srpski",
-    "text": "Srpskis"
+    "name": "Intervalni trening visokog intenziteta",
+    "desc": "Ovaj trening vam omogućava dobro zaokružen trening, istovremeno sagorevajući tonu masti i kalorija. Ovi treninzi mogu veoma varirati, od 500 kalorija na sat do 1500 kalorija na sat za čoveka od 180 kilograma. Ovi treninzi su odlični zbog intenziteta svake vežbe, kao i zbog varijacije vežbi i ponavljanja. Uparite bilo koji pokret tela sa pokretom tegova i tradicionalnim kardio elementom i imate savršen recept za neverovatan sagorevač masti.",
+    "duration": "60",
+    "diff": "4",
+    "avg_mark": "4.3",
+    "comments": [{
+        "id": "0",
+        "author": "Nikola Barjaktarevic",
+        "text": "All around improves your stamina.",
+        "date": "12-05-2020"
+    }
+],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

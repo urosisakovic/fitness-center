@@ -1,4 +1,44 @@
 {
-    "title": "Core1",
-    "text": "core1"
+    "name": "Strengthening back musculature",
+    "desc": "Simply by working to keep a neutral spine and remembering to increase intra-abdominal pressure before performing a movement that could compromise the spine, you are able to drastically decrease your risk for sustaining a back injury.",
+    "duration": "60",
+    "diff": "3",
+    "avg_mark": "4.2",
+    "comments": [],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

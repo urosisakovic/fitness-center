@@ -1,4 +1,46 @@
 {
-    "title": "Srpski",
-    "text": "Srpski"
+    "name": "Mat Pilates",
+    "desc": "Vežbe na otiraču (Mat Pilates) izvode se telom i uz joga prostirku umesto mašina i opreme. Mat pilates fokusiran je na vašu srž, što ga čini korisnim za one koji boluju u leđima. Pokreti u mat Pilates-u zasnivaju se na vežbama sa prostirkama u klasičnom pilates sistemu.",
+    "duration": "60",
+    "diff": "4",
+    "avg_mark": "4.6",
+    "comments": [
+        
+    ],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

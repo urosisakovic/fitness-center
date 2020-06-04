@@ -2,7 +2,19 @@
     "paragraphs": [
         {
             "id": "0",
-            "text": "srpski"
+            "text": "Fitness centre nudi veliki izbor grupnih treninga, kao i stalno prisutno, ljubazno osoblje, koje je uvek na raspolaganju. Fitnes instruktori i treneri Fitness centre su profesionalci sa dugogodišnjim trenerskim iskustvom, i sa specijalizacijom za određeni tip vežbanja."
+        },
+        {
+            "id": "1",
+            "text": "Naš sistem rada je zasnovan na, pre svega, poštovanju, zatim na bezbednosti, ali i na pružanju energičnog okruženja u kom se svi osećaju prijatno i zadovoljno. Tome doprinosi visok standard pri odabiru osoblja, trenera, kao i pri realizaciji bogatog trenažnog programa. Članovi Fitness centre, osim trenera i treninga, imaju mogućnost da biraju i opciju članstva koja najviše odgovara njihovim željama."
+        },
+        {
+            "id": "2",
+            "text": "Kod nas nije dozvoljena bilo koja vrsta diskriminacije ili predrasude. U Fitness centre vežbaju i muškarci i žene."
+        },
+        {
+            "id": "3",
+            "text": "Ukoliko želite da nastavite svoje fitnes navike, profesionalni ste sportista ili rekreativac, entuzijasta početnik, u ovom sportskom objektu pronaći ćete najbolju fizičku aktivnost za vas."
         }
     ],
     "images": [

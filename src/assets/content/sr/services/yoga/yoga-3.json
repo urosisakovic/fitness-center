@@ -1,4 +1,57 @@
 {
-    "name": "Srpski",
-    "desc": "Srpski"
+    "name": "Jain Joga",
+    "desc": "Jain joga je bila centralna praksa u džainizmu. Jainova duhovnost zasniva se na strogom kodeksu nenasilja ili ahimsa (koji uključuje vegetarijanstvo), davanju alme (dana), ispravnoj veri u tri dragulja, praksi štednje (tapasa) kao što su post i jogijskim oblicima. ",
+    "duration": "90",
+    "diff": "5",
+    "avg_mark": "4.1",
+    "comments": [
+        {
+            "id": "0",
+            "author": "Uros Isakovic",
+            "text": "There is always room for change, but you have to be open to that change.",
+            "date": "12-05-2020"
+        },
+        {
+            "id": "1",
+            "author": "Nikola Barjaktarevic",
+            "text": "The very heart of yoga practice is 'abyhasa' – steady effort in the direction you want to go.",
+            "date": "08-05-2020"
+        }
+    ],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

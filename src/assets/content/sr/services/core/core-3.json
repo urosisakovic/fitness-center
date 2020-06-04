@@ -1,4 +1,50 @@
 {
-    "title": "Srpski",
-    "text": "Srpski"
+    "name": "Vežbe za jezgro pri borilačkim veštinama",
+    "desc": "Osnovne vežbe koriste se kako bi se pomoglo rotaciji ili uvrtanju borca što doprinosi jačim udarcima, šutevima i hvatanjima. Borci koriste ove osnovne vežbe da bi ojačali svoje trbušnjake, obline i donji deo leđa. Štaviše, jači jezgrani mišići omogućavaju borcima da bolje apsorbuju udarce (tj. Da izdrže udarce u stomak).",
+    "duration": "90",
+    "diff": "5",
+    "avg_mark": "4.7",
+    "comments": [{
+        "id": "0",
+        "author": "Uros Isakovic",
+        "text": "Only for the true tryhards.",
+        "date": "12-05-2020"
+    }
+],
+    "images": [
+        {
+            "id": "0",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "1",
+            "file": "1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "0.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "1.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [
+        {
+            "id": "0",
+            "ogg": "0.ogg",
+            "mp4": "0.mp4",
+            "alt": "Video 0"
+        },
+        {
+            "id": "1",
+            "ogg": "1.ogg",
+            "mp4": "1.mp4",
+            "alt": "Video 1"
+        }
+    ]
 }

@@ -42,16 +42,23 @@
             </div>
             <!--/Gallery-->
 
-            <h2>Comments</h2>
-             <article v-for="comment in content.comments" :key="comment.id" class="media content-section">
-                <div class="media-body">
-                <div class="article-metadata">
-                    <small class="text-muted">{{comment.date}}</small>
-                </div>
-                <h2 class="article-title">{{comment.author}}</h2>
-                <p class="article-content">{{comment.text}}</p>
-                </div>
-            </article>
+            <div :key="refreshComments">
+                <h2>Comments</h2>
+                <article v-for="comment in content.comments" :key="comment.id" class="media content-section">
+                    <div class="media-body">
+                    <div class="article-metadata">
+                        <small class="text-muted">{{comment.date}}</small>
+                    </div>
+                    <h2 class="article-title">{{comment.author}}</h2>
+                    <p class="article-content">{{comment.text}}</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="form-group">
+                <textarea class="form-control" id="comment-text-area" rows="3">Tell us about your experience regarding this training session!</textarea>
+                <button type="submit" class="btn btn-primary" v-on:click="leaveComment()">Leave a comment</button>
+            </div>
 
         </div>
     </div>
@@ -66,6 +73,7 @@ export default {
     },
     data() {
         return {
+            refreshComments: 0
         }
     },
     props: {
@@ -76,6 +84,39 @@ export default {
     methods: {
         getImgUrl: function(pic) {
             return require('../../assets/images/' + pic.file)
+        },
+
+        hasCommentPrivilage: function() {
+            return true;
+        },
+
+        nextCommentId: function() {
+            var maxId = 0;
+            for (var i = 0; i < this.content.comments.length; i++) {
+                if (this.content.comments[i].id > maxId)
+                    maxId = this.content.comments[i].id;
+            }
+            maxId++;
+
+            return maxId;
+        },
+        
+        leaveComment: function() {
+            if (!this.hasCommentPrivilage())
+                return;
+
+            var textArea = document.getElementById("comment-text-area");
+
+            var newComment = Object();
+            newComment.text = textArea.value;
+            newComment.date = "100-100-2000";
+            newComment.author = "Divjak";
+            newComment.id = this.nextCommentId();
+
+            console.log(newComment);
+
+            this.content.comments.push(newComment);
+            this.refreshComments++;
         }
     }
 }

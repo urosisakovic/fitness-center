@@ -20,5 +20,11 @@
             "date": "15-06-2020",
             "time": "14:00"
         }
+    ],
+    "attended": [
+        {
+            "type": "Yoga",
+            "subtype": "Classical Yoga"
+        }
     ]
 }

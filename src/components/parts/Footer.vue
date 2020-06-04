@@ -10,17 +10,17 @@
 				<div class="col-md-3 mb-md-0 mb-3">
 					<h5 class="text-uppercase">Services</h5>
 					<ul class="list-unstyled">
-						<li><router-link to="/services/training" class="foot-link">Training</router-link></li>
-						<li><router-link to="/services/nutrtion" class="foot-link">Nutrition</router-link></li>
-						<li><router-link to="/services/massage" class="foot-link">Massage</router-link></li>
+						<li><router-link :to="makeLanguageRoute(serviceTrainingLink)" class="foot-link">Training</router-link></li>
+						<li><router-link :to="makeLanguageRoute(serviceNutritionLink)" class="foot-link">Nutrition</router-link></li>
+						<li><router-link :to="makeLanguageRoute(serviceMassageLink)" class="foot-link">Massage</router-link></li>
 					</ul>
 				</div>
 				<div class="col-md-3 mb-md-0 mb-3">
 					<h5 class="text-uppercase">Navigation</h5>
 					<ul class="list-unstyled">
-						<li><router-link to="/home" class="foot-link">Home</router-link></li>
-						<li><router-link to="/about" class="foot-link">About</router-link></li>
-						<li><router-link to="/account" class="foot-link">Account</router-link></li>
+						<li><router-link :to="makeLanguageRoute(homeLink)" class="foot-link">Home</router-link></li>
+						<li><router-link :to="makeLanguageRoute(aboutLink)" class="foot-link">About</router-link></li>
+						<li><router-link :to="makeLanguageRoute(accoutLink)" class="foot-link">Account</router-link></li>
 					</ul>
 				</div>  
 			</div>  
@@ -31,3 +31,41 @@
 		</div>
 	</footer>
 </template>
+
+<script>
+export default {
+		data() {
+        return {
+			homeLink: "/home",
+			serviceTrainingLink: "/services/training",
+			serviceNutritionLink: "/services/nutrition",
+			serviceMassageLink: "/services/massage",
+			bookTrainingLink: "/book/training",
+			bookNutritionLink: "/book/nutrition",
+			bookMassageLink: "/book/massage",
+			aboutLink: "/about",
+			contactLink: "/contact",
+			accoutLink: "/account"
+        }
+    },
+    methods: {
+		englishLanguage: function() {
+			var currUrl = this.$route.path;
+
+			if (currUrl.startsWith("/en"))
+				return true;
+			else if (currUrl.startsWith("/sr"))
+				return false;
+			else
+				return true;
+		},
+
+		makeLanguageRoute: function(url) {
+			if (this.englishLanguage())
+				return url;
+			else
+				return "/sr" + url;
+		}
+    }
+}
+</script>

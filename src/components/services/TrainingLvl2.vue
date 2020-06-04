@@ -86,8 +86,23 @@ export default {
             return require('../../assets/images/' + pic.file)
         },
 
+        getCurrentSubtype: function() {
+            var currUrl = this.$route.path;
+            var splittedUrl = currUrl.split("/");
+
+            return splittedUrl[splittedUrl.length - 1].toLowerCase();
+        },
+
         hasCommentPrivilage: function() {
-            return true;
+            var userInfo = require("../../assets/content/en/account.json")
+            var attended = userInfo.attended
+
+            for (var i = 0; i < attended.length; i++) {
+                if (attended[i].subtype.toLowerCase() == this.getCurrentSubtype())
+                    return true;
+            }
+            
+            return false;
         },
 
         nextCommentId: function() {
@@ -101,16 +116,44 @@ export default {
             return maxId;
         },
         
+        getDate: function() {
+            var date = new Date();
+
+            var day = date.getDay() + 1;
+            var month = date.getMonth() + 1;
+            var year = date.getFullYear();
+
+            var dayStr = "" + day;
+            if (day < 10)
+                dayStr = "0" + dayStr;
+            
+            var monthStr = "" + month;
+            if (month < 10)
+                monthStr = "0" + monthStr;
+            
+            var yearString = "" + year;
+
+            var dateString = dayStr + "-" + monthStr + "-" + yearString;
+            return dateString;
+        },
+
+        getAuthor: function() {
+            var userInfo = require("../../assets/content/en/account.json")
+            return userInfo.name
+        },
+
         leaveComment: function() {
-            if (!this.hasCommentPrivilage())
+            if (!this.hasCommentPrivilage()) {
+                alert("You must visit a training before leaving a comment!");
                 return;
+            }
 
             var textArea = document.getElementById("comment-text-area");
 
             var newComment = Object();
             newComment.text = textArea.value;
-            newComment.date = "100-100-2000";
-            newComment.author = "Divjak";
+            newComment.date = this.getDate();
+            newComment.author = this.getAuthor();
             newComment.id = this.nextCommentId();
 
             console.log(newComment);

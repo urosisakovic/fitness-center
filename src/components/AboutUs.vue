@@ -18,14 +18,14 @@
         <div class="carousel-item active">
             <div class="col-md-3 mb-3" v-for="image in content.images" :key="image.id">
                 <div class="card">
-                <img class="img-fluid" :src="getImgUrl(image)" alt="Card image cap">
+                <img class="img-fluid" :src="getImgUrl(image)">
                 </div>
             </div>
         </div>
         <div class="carousel-item">
             <div class="col-md-3 mb-3" v-for="image in content.images" :key="image.id">
                 <div class="card">
-                <img class="img-fluid" :src="getImgUrl(image)" alt="Card image cap">
+                <img class="img-fluid" :src="getImgUrl(image)">
                 </div>
             </div>
         </div>

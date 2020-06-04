@@ -2,23 +2,19 @@
     "images": [
         {
             "id": "0",
-            "file": "0.png",
-            "alt": "Image 0"
+            "file": "0.png"
         },
         {
             "id": "1",
-            "file": "1.png",
-            "alt": "Image 1"
+            "file": "1.png"
         },
         {
             "id": "2",
-            "file": "0.png",
-            "alt": "Image 0"
+            "file": "0.png"
         },
         {
             "id": "3",
-            "file": "1.png",
-            "alt": "Image 1"
+            "file": "1.png"
         }
     ],
     "text": "Fitness-centre is an ultra-modern unisex fitness center with the best amenities and training equipment. We offer a wide range of classes and exercising programs, tailored to improve stamina and fitness goals of each gym member, individually and at any level.",

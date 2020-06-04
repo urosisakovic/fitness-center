@@ -6,11 +6,23 @@
             <h1>{{content.name}} </h1>
             <p> {{content.desc}} </p>
 
-            <div class="row">
-                <h4 class="col-xl-4"> Duration: {{content.duration}} minutes </h4>
-                <h4 class="col-xl-4"> Difficulty: {{content.diff}} </h4>
-                <h4 class="col-xl-4"> Average user mark: {{content.avg_mark}} </h4>
-            </div>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th> Duration </th>
+                        <th> Difficulty </th>
+                        <th> User Mark </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td> {{content.duration}}' </td>
+                        <td> {{content.diff}} / 5 </td>
+                        <td> {{content.avg_mark}} / 5 </td>
+                    </tr>
+                </tbody>
+            </table>
 
             <!--Gallery-->
             <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
@@ -25,7 +37,6 @@
                         <div class="col-md-3 mb-3" v-for="image in content.images1" :key="image.id">
                             <div class="card">
                             <img class="img-fluid" :src="getImgUrl(image)">
-                                alt="Card image cap">
                             </div>
                         </div>
                     </div>
@@ -33,7 +44,6 @@
                         <div class="col-md-3 mb-3" v-for="image in content.images2" :key="image.id">
                             <div class="card">
                             <img class="img-fluid" :src="getImgUrl(image)">
-                                alt="Card image cap">
                             </div>
                         </div>
                     </div>

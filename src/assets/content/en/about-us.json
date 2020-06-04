@@ -20,23 +20,19 @@
     "images": [
         {
             "id": "0",
-            "file": "0.png",
-            "alt": "Image 0"
+            "file": "0.png"
         },
         {
             "id": "1",
-            "file": "1.png",
-            "alt": "Image 1"
+            "file": "1.png"
         },
         {
             "id": "2",
-            "file": "0.png",
-            "alt": "Image 0"
+            "file": "0.png"
         },
         {
             "id": "3",
-            "file": "1.png",
-            "alt": "Image 1"
+            "file": "1.png"
         }
     ]
 }

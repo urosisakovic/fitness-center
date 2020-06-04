@@ -19,7 +19,6 @@
                         <div class="col-md-3 mb-3" v-for="image in content.images1" :key="image.id">
                             <div class="card">
                             <img class="img-fluid" :src="getImgUrl(image)">
-                                alt="Card image cap">
                             </div>
                         </div>
                     </div>
@@ -27,7 +26,6 @@
                         <div class="col-md-3 mb-3" v-for="image in content.images2" :key="image.id">
                             <div class="card">
                             <img class="img-fluid" :src="getImgUrl(image)">
-                                alt="Card image cap">
                             </div>
                         </div>
                     </div>

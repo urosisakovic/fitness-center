@@ -33,6 +33,8 @@
           <td> {{ training.date }} </td>
           <td> {{ training.time }}</td>
           <td> {{ training.placesLeft }}</td>
+          <td> {{ training.placesLeft }}</td>
+          <td> <button type="button">Book</button> </td>
         </tr>
       </tbody>
 
@@ -45,24 +47,6 @@
 export default {
   data() {
     return {
-      trainings: [
-        {
-          id: "0",
-          type: "Yoga",
-          subtype: "Yoga-1",
-          date: "20-06-2020",
-          time: "20:00",
-          placesLeft: 5
-        },
-        {
-          id: "1",
-          type: "Pilates",
-          subtype: "Yoga-2",
-          date: "22-06-2020",
-          time: "21:30",
-          placesLeft: 12
-        }
-      ],
       curr_trainings: [],
       options: [
         {
@@ -103,7 +87,7 @@ export default {
       var subTypeSelectField = document.getElementById("dd-sub-type-select");
       subTypeSelectField.selectedIndex = 0;
 
-      setTimeout(() => this.refreshTable(), 500);
+      setTimeout(() => this.refreshTable(), 50);
     },
 
     subTypeSelect: function() {
@@ -134,6 +118,9 @@ export default {
         }
       }
     }
+  },
+  mounted() {
+    this.refreshTable();
   }
 }
 </script>

@@ -234,3 +234,7 @@ body {
  .table-striped>thead>tr:nth-child(odd)>th {
 	background-color: #333333;
   }
+
+#masnut-submit-button {
+	margin-bottom: 15px;
+}

@@ -6,7 +6,7 @@
             <h1>{{content.name}} </h1>
             <p> {{content.desc}} </p>
 
-            <table class="table table-striped table-dark">
+            <table class="table table-striped table-dark" style="text-align: center">
                 <thead>
                     <tr>
                         <th> Duration </th>

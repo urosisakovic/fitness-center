@@ -15,7 +15,7 @@
         </div>
         <div class="form-group">
           <label for="input-tel">Telephone Number</label>
-          <input type="number" class="form-control" id="input-tel" placeholder="Enter Telephone Number">
+          <input type="text" class="form-control" id="input-tel" placeholder="Enter Telephone Number">
         </div>
         <div class="form-group">
           <label for="input-email">Email address</label>
@@ -30,7 +30,7 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Download PDF report</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button id="masnut-submit-button" type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
 </template>

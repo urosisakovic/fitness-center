@@ -2,39 +2,39 @@
   <div class="container">
     <h2> Choose your training! </h2>
 
-    <select id="dd-type-select" class="form-control" v-on:change="typeSelect()">
-      <option value="yoga">Yoga</option>
-      <option value="pilates">Pilates</option>
-      <option value="core">Core</option>
-      <option value="cardio">Cardio</option>
-    </select>
-
-    <select id="dd-sub-type-select" class="form-control" v-on:change="subTypeSelect()">
+    <div class="form-group">
+      <label for="input-fn">Training Type</label>
+      <select id="dd-type-select" class="form-control" v-on:change="typeSelect()">
+        <option value="yoga">Yoga</option>
+        <option value="pilates">Pilates</option>
+        <option value="core">Core</option>
+        <option value="cardio">Cardio</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="input-fn">Training</label>
+      <select id="dd-sub-type-select" class="form-control" v-on:change="subTypeSelect()">
       <option v-for="option in options" :key="option.id">{{ option.text }}</option>
     </select>
+    </div>
 
     <h2> Available sessions: </h2>
-    <table>
+    <table class="table table-striped table-dark" style="text-align: center">
       <thead>
         <tr>
-          <td>Type</td>
-          <td>Name</td>
           <td>Date</td>
           <td>Time</td>
           <td>Places left</td>
-          <td>Book</td>
+          <td>Come and Join Us!</td>
         </tr>
       </thead>
 
       <tbody>
         <tr v-for="training in curr_trainings" :key="training.id">
-          <td> {{ training.type }} </td>
-          <td> {{ training.subtype }}</td>
           <td> {{ training.date }} </td>
           <td> {{ training.time }}</td>
           <td> {{ training.placesLeft }}</td>
-          <td> {{ training.placesLeft }}</td>
-          <td> <button type="button">Book</button> </td>
+          <td> <button type="button" class="btn btn-primary">Book</button> </td>
         </tr>
       </tbody>
 
@@ -71,8 +71,6 @@ export default {
   },
   methods: {
     typeSelect: function() {
-      console.log("typeSelect()");
-
       var typeSelectField = document.getElementById("dd-type-select");
       var type = typeSelectField.options[typeSelectField.selectedIndex].text;
 
@@ -91,21 +89,15 @@ export default {
     },
 
     subTypeSelect: function() {
-      console.log("subTypeSelect()");
       this.refreshTable();
     },
 
     refreshTable: function() {
-      console.log("refreshTable()");
-
       var typeSelectField = document.getElementById("dd-type-select");
       var subTypeSelectField = document.getElementById("dd-sub-type-select");
 
       var type = typeSelectField.options[typeSelectField.selectedIndex].text;
       var subtype = subTypeSelectField.options[subTypeSelectField.selectedIndex].text;
-
-      console.log("type: " + type);
-      console.log("subtype: " + subtype);
 
       this.curr_trainings = [];
 

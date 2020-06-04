@@ -2,17 +2,15 @@
   <div class="container">
     <h2> Choose your training! </h2>
 
-    <select id="dd-type-select" class="form-control" v-on:change="refreshTable()">
+    <select id="dd-type-select" class="form-control" v-on:change="typeSelect()">
       <option value="yoga">Yoga</option>
       <option value="pilates">Pilates</option>
       <option value="core">Core</option>
       <option value="cardio">Cardio</option>
     </select>
 
-    <select id="dd-sub-type-select" class="form-control">
-      <option value="yoga">Yoga-1</option>
-      <option value="yoga">Yoga-2</option>
-      <option value="yoga">Yoga-3</option>
+    <select id="dd-sub-type-select" class="form-control" v-on:change="subTypeSelect()">
+      <option v-for="option in options" :key="option.id">{{ option.text }}</option>
     </select>
 
     <h2> Available sessions: </h2>
@@ -65,8 +63,20 @@ export default {
           placesLeft: 12
         }
       ],
-      curr_trainings: [
-
+      curr_trainings: [],
+      options: [
+        {
+          id: 0,
+          text: "Yoga-1"
+        },
+        {
+          id: 1,
+          text: "Yoga-2"
+        },
+        {
+          id: 2,
+          text: "Yoga-3"
+        }
       ]
     }
   },
@@ -76,28 +86,51 @@ export default {
     }
   },
   methods: {
-    refreshTable: function() {
-      console.log("refreshTable");
+    typeSelect: function() {
+      console.log("typeSelect()");
 
       var typeSelectField = document.getElementById("dd-type-select");
-      //var subTypeSelectField = document.getElementById("dd-sub-type-select");
-
       var type = typeSelectField.options[typeSelectField.selectedIndex].text;
-      
-      for (var i = 0; i < this.content.trainings.length; i++) {
-        if (type.toLowerCase() == this.content.trainings[i].name.toLowerCase()) {
 
+      this.options = [];
 
-          break;
+      for (var i = 0; i < this.content.types.length; i++) {
+        if (type.toLowerCase() == this.content.types[i].name.toLowerCase()) {
+          this.options = this.content.types[i].subtypes;
         }
       }
 
-      this.curr_trainings.length = 0;
-      for (i = 0; i < this.content.trainings.length; i++) {
+      var subTypeSelectField = document.getElementById("dd-sub-type-select");
+      subTypeSelectField.selectedIndex = 0;
+
+      setTimeout(() => this.refreshTable(), 500);
+    },
+
+    subTypeSelect: function() {
+      console.log("subTypeSelect()");
+      this.refreshTable();
+    },
+
+    refreshTable: function() {
+      console.log("refreshTable()");
+
+      var typeSelectField = document.getElementById("dd-type-select");
+      var subTypeSelectField = document.getElementById("dd-sub-type-select");
+
+      var type = typeSelectField.options[typeSelectField.selectedIndex].text;
+      var subtype = subTypeSelectField.options[subTypeSelectField.selectedIndex].text;
+
+      console.log("type: " + type);
+      console.log("subtype: " + subtype);
+
+      this.curr_trainings = [];
+
+      for (var i = 0; i < this.content.trainings.length; i++) {
         if (this.content.trainings[i].type.toLowerCase() == type.toLowerCase()) {
-          console.log("EQUAL");
-          for (var j = 0; j < this.content.trainings[i].trainings.length; j++)
-            this.curr_trainings.push(this.content.trainings[i].trainings[j]);
+          for (var j = 0; j < this.content.trainings[i].trainings.length; j++) {
+            if (this.content.trainings[i].trainings[j].subtype.toLowerCase() == subtype.toLowerCase())
+              this.curr_trainings.push(this.content.trainings[i].trainings[j]);
+          }
         }
       }
     }

@@ -16,14 +16,14 @@
 
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-            <div class="col-md-3 mb-3" v-for="image in content.images" :key="image.id">
+            <div class="col-md-3 mb-3" v-for="image in content.images1" :key="image.id">
                 <div class="card">
                 <img class="img-fluid" :src="getImgUrl(image)">
                 </div>
             </div>
         </div>
         <div class="carousel-item">
-            <div class="col-md-3 mb-3" v-for="image in content.images" :key="image.id">
+            <div class="col-md-3 mb-3" v-for="image in content.images2" :key="image.id">
                 <div class="card">
                 <img class="img-fluid" :src="getImgUrl(image)">
                 </div>

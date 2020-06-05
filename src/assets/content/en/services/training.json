@@ -1,25 +1,48 @@
 {
     "name": "Trainings",
     "desc": "Training is teaching, or developing in oneself or others, any skills and knowledge or fitness that relate to specific useful competencies. Training has specific goals of improving one's capability, capacity, productivity and performance. It forms the core of apprenticeships and provides the backbone of content at institutes of technology (also known as technical colleges or polytechnics). To check out our variety of trainings, click on one of the options in the menu. ",
-    "images": [
+    "images1": [
         {
             "id": "0",
-            "file": "0.png",
+            "file": "cardio_0.png",
             "alt": "Image 0"
         },
         {
             "id": "1",
-            "file": "1.png",
+            "file": "cardio_1.png",
             "alt": "Image 1"
         },
         {
             "id": "2",
-            "file": "0.png",
+            "file": "yoga_1.png",
             "alt": "Image 0"
         },
         {
             "id": "3",
-            "file": "1.png",
+            "file": "yoga_3.png",
+            "alt": "Image 1"
+        }
+
+    ],
+    "images2": [
+        {
+            "id": "4",
+            "file": "core_5.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "5",
+            "file": "core_1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "6",
+            "file": "pilates_2.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "7",
+            "file": "pilates_1.png",
             "alt": "Image 1"
         }
     ],

@@ -11,25 +11,48 @@
         "date": "12-05-2020"
     }
 ],
-    "images": [
+    "images1": [
         {
             "id": "0",
-            "file": "0.png",
+            "file": "cardio_0.png",
             "alt": "Image 0"
         },
         {
             "id": "1",
-            "file": "1.png",
+            "file": "cardio_1.png",
             "alt": "Image 1"
         },
         {
             "id": "2",
-            "file": "0.png",
+            "file": "cardio_2.png",
             "alt": "Image 0"
         },
         {
             "id": "3",
-            "file": "1.png",
+            "file": "cardio_3.png",
+            "alt": "Image 1"
+        }
+
+    ],
+    "images2": [
+        {
+            "id": "4",
+            "file": "cardio_4.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "5",
+            "file": "cardio_5.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "6",
+            "file": "cardio_6.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "7",
+            "file": "cardio_7.png",
             "alt": "Image 1"
         }
     ],

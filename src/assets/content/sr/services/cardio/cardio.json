@@ -1,25 +1,48 @@
 {
     "name": "Kardio",
     "desc": "Aerobna vežba (poznata i kao kardio) je fizička vežba niskog do visokog intenziteta koja pre svega zavisi od procesa aerobne energije. „Aerobni“ znači „koji se odnosi na, uključuje ili zahteva slobodan kiseonik“, a odnosi se na upotrebu kiseonika za adekvatno zadovoljenje potreba za energijom tokom vežbanja aerobnim metabolizmom. Obično, aktivnosti laganog do umerenog intenziteta koje dovoljno podržavaju aerobni metabolizam mogu se izvoditi tokom dužeg vremenskog perioda. Ono što se uglavnom naziva aerobna vežba može se bolje nazvati „isključivo aerobnom“, jer je dizajnirana tako da bude dovoljno niskog intenziteta, tako da se svi ugljeni hidrati aerobno pretvaraju u energiju.",
-    "images": [
+    "images1": [
         {
             "id": "0",
-            "file": "0.png",
+            "file": "cardio_0.png",
             "alt": "Image 0"
         },
         {
             "id": "1",
-            "file": "1.png",
+            "file": "cardio_1.png",
             "alt": "Image 1"
         },
         {
             "id": "2",
-            "file": "0.png",
+            "file": "cardio_2.png",
             "alt": "Image 0"
         },
         {
             "id": "3",
-            "file": "1.png",
+            "file": "cardio_3.png",
+            "alt": "Image 1"
+        }
+
+    ],
+    "images2": [
+        {
+            "id": "4",
+            "file": "cardio_4.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "5",
+            "file": "cardio_5.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "6",
+            "file": "cardio_6.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "7",
+            "file": "cardio_7.png",
             "alt": "Image 1"
         }
     ],

@@ -1,25 +1,48 @@
 {
     "name": "Core",
     "desc": "Core stability refers to a person's ability to stabilize their core. Stability, in this context, should be considered as an ability to control the position and movement of the core. Thus, if a person has greater core stability, they have a greater level of control over the position and movement of this area of their body. The body's core is frequently involved in aiding other movements of the body, such as the limbs, and it is considered that by improving core stability a person's ability to perform these other movements may also be improved i.e. core stability training may help improve someone's running ability. ",
-    "images": [
+    "images1": [
         {
             "id": "0",
-            "file": "0.png",
+            "file": "core_0.png",
             "alt": "Image 0"
         },
         {
             "id": "1",
-            "file": "1.png",
+            "file": "core_1.png",
             "alt": "Image 1"
         },
         {
             "id": "2",
-            "file": "0.png",
+            "file": "core_2.png",
             "alt": "Image 0"
         },
         {
             "id": "3",
-            "file": "1.png",
+            "file": "core_3.png",
+            "alt": "Image 1"
+        }
+
+    ],
+    "images2": [
+        {
+            "id": "4",
+            "file": "core_4.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "5",
+            "file": "core_5.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "6",
+            "file": "core_6.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "7",
+            "file": "core_7.png",
             "alt": "Image 1"
         }
     ],

@@ -5,25 +5,48 @@
     "diff": "3",
     "avg_mark": "4.2",
     "comments": [],
-    "images": [
+    "images1": [
         {
             "id": "0",
-            "file": "0.png",
+            "file": "pilates_0.png",
             "alt": "Image 0"
         },
         {
             "id": "1",
-            "file": "1.png",
+            "file": "pilates_1.png",
             "alt": "Image 1"
         },
         {
             "id": "2",
-            "file": "0.png",
+            "file": "pilates_2.png",
             "alt": "Image 0"
         },
         {
             "id": "3",
-            "file": "1.png",
+            "file": "pilates_3.png",
+            "alt": "Image 1"
+        }
+
+    ],
+    "images2": [
+        {
+            "id": "4",
+            "file": "pilates_4.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "5",
+            "file": "pilates_5.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "6",
+            "file": "pilates_6.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "7",
+            "file": "pilates_7.png",
             "alt": "Image 1"
         }
     ],

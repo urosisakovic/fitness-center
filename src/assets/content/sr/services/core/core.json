@@ -1,25 +1,48 @@
 {
     "name": "Jezgro",
     "desc": "Osnovna stabilnost odnosi se na sposobnost čoveka da uravnoteži svoje jezgro. Stabilnost u ovom kontekstu treba posmatrati kao sposobnost kontrole položaja i kretanja jezgra. Dakle, ako osoba ima veću stabilnost jezgra, ona ima veći nivo kontrole nad položajem i kretanjem ovog područja svog tela. Jezgro tela je često uključeno u pomaganje drugim delovima tela, kao što su udovi, i smatra se da poboljšanjem stabilnosti jezgra može da se poboljša i sposobnost osobe da izvodi ove druge pokrete.",
-    "images": [
+    "images1": [
         {
             "id": "0",
-            "file": "0.png",
+            "file": "core_0.png",
             "alt": "Image 0"
         },
         {
             "id": "1",
-            "file": "1.png",
+            "file": "core_1.png",
             "alt": "Image 1"
         },
         {
             "id": "2",
-            "file": "0.png",
+            "file": "core_2.png",
             "alt": "Image 0"
         },
         {
             "id": "3",
-            "file": "1.png",
+            "file": "core_3.png",
+            "alt": "Image 1"
+        }
+
+    ],
+    "images2": [
+        {
+            "id": "4",
+            "file": "core_4.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "5",
+            "file": "core_5.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "6",
+            "file": "core_6.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "7",
+            "file": "core_7.png",
             "alt": "Image 1"
         }
     ],

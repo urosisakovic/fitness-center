@@ -1,5 +1,5 @@
 <template>
-    <header class="site-header">
+    <header class="site-header" :key="language">
 			<nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
 				<div class="container-fluid">
 					<router-link class="navbar-brand mr-4" :to="makeLanguageRoute(homeLink)">GYM</router-link>
@@ -11,26 +11,26 @@
 						<div class="navbar-nav mr-auto"></div>
 						<!-- Navbar Right Side -->
 						<div class="navbar-nav">
-							<router-link class="nav-item nav-link" :to="makeLanguageRoute(homeLink)"> Home</router-link>
+							<router-link class="nav-item nav-link" :to="makeLanguageRoute(homeLink)"> {{ words.home }} </router-link>
 							<div class="dropdown">
-								<a href="#" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown">Services</a>
+								<a href="#" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown">{{ words.services }}</a>
 								<div class="dropdown-menu">
-									<router-link :to="makeLanguageRoute(serviceTrainingLink)" class="dropdown-item">Training</router-link>
-									<router-link :to="makeLanguageRoute(serviceNutritionLink)" class="dropdown-item">Nutrition</router-link>
-									<router-link :to="makeLanguageRoute(serviceMassageLink)" class="dropdown-item">Massage</router-link>
+									<router-link :to="makeLanguageRoute(serviceTrainingLink)" class="dropdown-item">{{ words.training }}</router-link>
+									<router-link :to="makeLanguageRoute(serviceNutritionLink)" class="dropdown-item">{{ words.nutrition }}</router-link>
+									<router-link :to="makeLanguageRoute(serviceMassageLink)" class="dropdown-item">{{ words.massage }}</router-link>
 								</div>
 							</div>
 							<div class="dropdown">
-								<a href="#" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown">Book</a>
+								<a href="#" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown">{{ words.book }}</a>
 								<div class="dropdown-menu">
-									<router-link :to="makeLanguageRoute(bookTrainingLink)" class="dropdown-item">Training</router-link>
-									<router-link :to="makeLanguageRoute(bookNutritionLink)" class="dropdown-item">Nutrition</router-link>
-									<router-link :to="makeLanguageRoute(bookMassageLink)" class="dropdown-item">Massage</router-link>
+									<router-link :to="makeLanguageRoute(bookTrainingLink)" class="dropdown-item">{{ words.training }}</router-link>
+									<router-link :to="makeLanguageRoute(bookNutritionLink)" class="dropdown-item">{{ words.nutrition }}</router-link>
+									<router-link :to="makeLanguageRoute(bookMassageLink)" class="dropdown-item">{{ words.massage }}</router-link>
 								</div>
 							</div>
-							<router-link class="nav-item nav-link" :to="makeLanguageRoute(aboutLink)"> About Us</router-link>
-							<router-link class="nav-item nav-link" :to="makeLanguageRoute(contactLink)"> Contact</router-link>
-							<router-link class="nav-item nav-link" :to="makeLanguageRoute(accoutLink)"> My Account</router-link>
+							<router-link class="nav-item nav-link" :to="makeLanguageRoute(aboutLink)"> {{ words.aboutus }} </router-link>
+							<router-link class="nav-item nav-link" :to="makeLanguageRoute(contactLink)"> {{ words.contact }} </router-link>
+							<router-link class="nav-item nav-link" :to="makeLanguageRoute(accoutLink)"> {{ words.myaccount }} </router-link>
 							<router-link class="nav-item nav-link" :to="swapLanguageURL().url"> SR|EN </router-link>
 						</div>
 					</div>
@@ -52,7 +52,8 @@ export default {
 			bookMassageLink: "/book/massage",
 			aboutLink: "/about",
 			contactLink: "/contact",
-			accoutLink: "/account"
+			accoutLink: "/account",
+			words: {}
         }
     },
     methods: {
@@ -91,7 +92,17 @@ export default {
 			return {
 				"url": newUrl
 			};
-        }
-    }
+		}
+	},
+	mounted() {
+		if (this.englishLanguage()) {
+			console.log("English");
+			this.words = require("../../assets/content/en/dictionary.json").header_footer
+		}
+		else {
+			console.log("Serbian");
+			this.words = require("../../assets/content/sr/dictionary.json").header_footer
+		}
+	}
 }
 </script>

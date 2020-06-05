@@ -1,0 +1,16 @@
+{
+    "header_footer": {
+        "home": "Home",
+        "services": "Services",
+        "book": "Book",
+        "aboutus": "About Us",
+        "contact": "Contact",
+        "myaccount": "My Account",
+        "training": "Training",
+        "nutrition": "Nutrition",
+        "massage": "Massage",
+        "footerCaption": "The best gym out there.",
+        "copyright": "Department for Software Engineering, University of Belgrade, School of Electrical Engineering",
+        "navigation": "Navigation"
+    }
+}

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <app-header></app-header>
+    <app-header :key="$route.fullPath"></app-header>
     <router-view :key="$route.fullPath"></router-view>
-    <app-footer></app-footer>
+    <app-footer :key="$route.fullPath"></app-footer>
   </div>
 </template>
 

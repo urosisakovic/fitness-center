@@ -34,13 +34,13 @@
         "core": "jezgro",
         "Core": "Jezgro",
         "core1": "Ojačavanje leđne muskulature",
-        "core2": "Intra-abdominalni pritisak ",
-        "core3": "Vežbe za jezgro pri borilačkim veštinama ",
+        "core2": "Intra-abdominalni pritisak",
+        "core3": "Vežbe za jezgro pri borilačkim veštinama",
 
         "cardio": "kardio",
         "Cardio": "Kardio",
         "cardio1": "Sprint",
-        "cardio2": "Intervalni trening visokog intenziteta ",
+        "cardio2": "Intervalni trening visokog intenziteta",
         "cardio3": "Biciklizam"
     },
 
@@ -72,6 +72,31 @@
         "problemDesc": "Kratak opis problema",
         "enterProblemDesc": "Unesite kratak opis problema",
         "downloadPdf": "Preuzmite PDF izveštaj",
-        "submit": "Potvrdite"
-    }
+        "submit": "Potvrdite",
+
+        "chooseTr": "Izaberite Vaš idealan trening",
+        "trainingType": "Tip treninga",
+        "training": "Trening",
+        "available": "Naredni termini",
+        "date": "Datum",
+        "time": "Vreme",
+        "placesLeft": "Preostalo mesta",
+        "comeAndJoin": "Zakaži trening!",
+        "book": "Zakaži"
+    },
+
+    "options": [
+        {
+          "id": "0",
+          "text": "Klasična joga"
+        },
+        {
+          "id": "1",
+          "text": "Hatha joga"
+        },
+        {
+          "id": 2,
+          "text": "Jain joga"
+        }
+    ]
 }

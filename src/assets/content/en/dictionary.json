@@ -75,6 +75,31 @@
         "problemDesc": "Short Problem Description",
         "enterProblemDesc": "Enter Short Problem Description",
         "downloadPdf": "Download PDF Report",
-        "submit": "Submit"
-    }
+        "submit": "Submit",
+
+        "chooseTr": "Choose Your Perfect Training",
+        "trainingType": "Training Type",
+        "training": "Training",
+        "available": "Available Sessions",
+        "date": "Date",
+        "time": "Time",
+        "placesLeft": "Places Left",
+        "comeAndJoin": "Come and Join Us!",
+        "book": "Book"
+    },
+
+    "options": [
+        {
+          "id": "0",
+          "text": "Classical Yoga"
+        },
+        {
+          "id": "1",
+          "text": "Hatha Yoga"
+        },
+        {
+          "id": 2,
+          "text": "Jain Yoga"
+        }
+    ]
 }

@@ -1,4 +1,266 @@
 {
-    "title": "Srpski",
-    "text": "Srpski"
+    "types": [
+        {
+            "name": "Joga",
+            "subtypes": [
+                {
+                    "id": "0",
+                    "text": "Klasična joga"
+                },
+                {
+                    "id": "1",
+                    "text": "Hatha joga"
+                },
+                {
+                    "id": "2",
+                    "text": "Jain joga"
+                }
+            ]
+        },
+        {
+            "name": "Pilates",
+            "subtypes": [
+                {
+                    "id": "0",
+                    "text": "Klasični pilates"
+                },
+                {
+                    "id": "1",
+                    "text": "Pilates na strunjačama"
+                },
+                {
+                    "id": "2",
+                    "text": "Reformer pilates"
+                }
+            ]
+        },
+        {
+            "name": "Kardio",
+            "subtypes": [
+                {
+                    "id": "0",
+                    "text": "Sprint"
+                },
+                {
+                    "id": "1",
+                    "text": "Intervalni trening visokog intenziteta"
+                },
+                {
+                    "id": "2",
+                    "text": "Biciklizam"
+                }
+            ]
+        },
+        {
+            "name": "Jezgro",
+            "subtypes": [
+                {
+                    "id": "0",
+                    "text": "Ojačavanje leđne muskulature"
+                },
+                {
+                    "id": "1",
+                    "text": "Intra-abdominalni pritisak"
+                },
+                {
+                    "id": "2",
+                    "text": "Vežbe za jezgro pri borilačkim veštinama"
+                }
+            ]
+        }
+    ],
+    "trainings": [
+        {
+            "type": "Joga",
+            "trainings": [
+                {
+                    "id": "0",
+                    "subtype": "Klasična joga",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "1",
+                    "subtype": "Klasična joga",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "2",
+                    "subtype": "Hatha joga",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "3",
+                    "subtype": "Hatha joga",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "4",
+                    "subtype": "Jain joga",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "5",
+                    "subtype": "Jain joga",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                }
+            ]
+        },
+
+        {
+            "type": "pilates",
+            "trainings": [
+                {
+                    "id": "0",
+                    "subtype": "Klasični pilates",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "1",
+                    "subtype": "Klasični pilates",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "2",
+                    "subtype": "Pilates na strunjačama",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "3",
+                    "subtype": "Pilates na strunjačama",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "4",
+                    "subtype": "Reformer pilates",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "5",
+                    "subtype": "Reformer pilates",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                }
+            ]
+        },
+
+        {
+            "type": "Jezgro",
+            "trainings": [
+                {
+                    "id": "0",
+                    "subtype": "Ojačavanje leđne muskulature",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "1",
+                    "subtype": "Ojačavanje leđne muskulature",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "2",
+                    "subtype": "Intra-abdominalni pritisak",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "3",
+                    "subtype": "Intra-abdominalni pritisak",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "4",
+                    "subtype": "Vežbe za jezgro pri borilačkim veštinama",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "5",
+                    "subtype": "Vežbe za jezgro pri borilačkim veštinama",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                }
+            ]
+        },
+
+        {
+            "type": "Kardio",
+            "trainings": [
+                {
+                    "id": "0",
+                    "subtype": "Sprint",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "1",
+                    "subtype": "Sprint",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "2",
+                    "subtype": "Intervalni trening visokog intenziteta",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "3",
+                    "subtype": "Intervalni trening visokog intenziteta",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "4",
+                    "subtype": "Biciklizam",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                },
+                {
+                    "id": "5",
+                    "subtype": "Biciklizam",
+                    "date": "20-06-2020",
+                    "time": "20:00",
+                    "placesLeft": "5"
+                }
+            ]
+        }
+
+    ]
 }

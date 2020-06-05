@@ -16,6 +16,8 @@
 
     "trainings": {
         "trainings": "Trainings",
+        "schedule": "schedule",
+        "Schedule": "at the GYM",
 
         "yoga": "yoga",
         "Yoga": "Yoga",
@@ -41,10 +43,7 @@
         "Cardio": "Cardio",
         "cardio1": "Sprinting",
         "cardio2": "High-intensity interval training",
-        "cardio3": "Cycling",
-
-        "schedule": "schedule",
-        "Schedule": "Schedule"
+        "cardio3": "Cycling"
     },
 
     "contact": {

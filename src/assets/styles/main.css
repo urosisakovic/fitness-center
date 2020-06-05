@@ -238,3 +238,15 @@ body {
 #masnut-submit-button {
 	margin-bottom: 15px;
 }
+
+.breadcrumbs {
+	background-color: #111111;
+}
+
+.breadcrumbs ol {
+	background-color: #111111;
+}
+
+.breadcrumbs ol li{
+	background-color: #111111;
+}

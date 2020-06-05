@@ -3,6 +3,16 @@
         <app-sidebar></app-sidebar>
         
         <div class="container" id="content">
+
+            <nav aria-label="breadcrumb" class="breadcrumbs">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/home">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services/training">Trainings</a></li>
+                    <li class="breadcrumb-item"><a :href="getBreadcrumbURL()"> {{ getTrainingType() }} </a></li>
+                    <li class="breadcrumb-item active" aria-current="page"> {{ getLastURLWord() }}</li>
+                </ol>
+            </nav>
+
             <h1>{{content.name}} </h1>
             <p> {{content.desc}} </p>
 
@@ -170,6 +180,60 @@ export default {
 
             this.content.comments.push(newComment);
             this.refreshComments++;
+        },
+
+        getLastURLWord: function() {
+            var currUrl = this.$route.path;
+            var splitted = currUrl.split('/');
+            var lastWord = splitted[splitted.length - 1];
+
+            if (lastWord == "classical-yoga")
+                return "Classical Yoga"
+            else if (lastWord == "hatha-yoga")
+                return "Hatha Yoga"
+            else if (lastWord == "jain-yoga")
+                return "Jain Yoga"
+            else if (lastWord == "classical-pilates")
+                return "Classical Pilates"
+            else if (lastWord == "mat-pilates")
+                return "Mat Pilates"
+            else if (lastWord == "reformer-pilates")
+                return "Reformer Pilates"
+            else if (lastWord == "sbm")
+                return "Strengthening back musculature"
+            else if (lastWord == "iap")
+                return "Intra-abdominal pressure"
+            else if (lastWord == "mace")
+                return "Martial Arts Core Excercises"
+            else if (lastWord == "sprinting")
+                return "Sprinting"
+            else if (lastWord == "hiit")
+                return "High-intensity interval training "
+            else if (lastWord == "cycling")
+                return "Cycling"
+        },
+
+        getTrainingType: function() {
+            var currUrl = this.$route.path;
+            var splitted = currUrl.split('/');
+            var lastWord = splitted[splitted.length - 2];
+
+            if (lastWord == "yoga")
+                return "Yoga"
+            else if (lastWord == "pilates")
+                return "Pilates"
+            else if (lastWord == "core")
+                return "Core"
+            else if (lastWord == "cardio")
+                return "Cardio"
+        },
+
+        getBreadcrumbURL: function() {
+            var currUrl = this.$route.path;
+            var splitted = currUrl.split('/');
+            var lastWord = splitted[splitted.length - 2];
+
+            return "/services/training/" + lastWord
         }
     }
 }

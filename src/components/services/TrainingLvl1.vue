@@ -3,6 +3,15 @@
         <app-sidebar></app-sidebar>
         
         <div class="container" id="content">
+
+            <nav aria-label="breadcrumb" class="breadcrumbs">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/home">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/services/training">Trainings</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"> {{ getLastURLWord() }}</li>
+                </ol>
+            </nav>
+
             <h1>{{content.name}} </h1>
             <p> {{content.desc}} </p>
 
@@ -77,6 +86,20 @@ export default {
     methods: {
         getImgUrl: function(pic) {
             return require('../../assets/images/' + pic.file)
+        },
+        getLastURLWord: function() {
+            var currUrl = this.$route.path;
+            var splitted = currUrl.split('/');
+            var lastWord = splitted[splitted.length - 1];
+
+            if (lastWord == "yoga")
+                return "Yoga"
+            else if (lastWord == "pilates")
+                return "Pilates"
+            else if (lastWord == "core")
+                return "Core"
+            else if (lastWord == "cardio")
+                return "Cardio"
         }
     }
 }

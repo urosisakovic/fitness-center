@@ -12,5 +12,38 @@
         "footerCaption": "The best gym out there.",
         "copyright": "Department for Software Engineering, University of Belgrade, School of Electrical Engineering",
         "navigation": "Navigation"
+    },
+
+    "trainings": {
+        "trainings": "Trainings",
+
+        "yoga": "yoga",
+        "Yoga": "Yoga",
+        "yoga1": "Classical Yoga",
+        "yoga2": "Hatha Yoga",
+        "yoga3": "Jain Yoga",
+
+
+        "pilates": "pilates",
+        "Pilates": "Pilates",
+        "pilates1": "Classical Pilates",
+        "pilates2": "Mat Pilates",
+        "pilates3": "Reformer Pilates",
+
+
+        "core": "core",
+        "Core": "Core",
+        "core1": "Strengthening back musculature",
+        "core2": "Intra-abdominal pressure",
+        "core3": "Martial Arts Core Excercises",
+
+        "cardio": "cardio",
+        "Cardio": "Cardio",
+        "cardio1": "Sprinting",
+        "cardio2": "High-intensity interval training",
+        "cardio3": "Cycling",
+
+        "schedule": "schedule",
+        "Schedule": "Schedule"
     }
 }

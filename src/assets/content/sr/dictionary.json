@@ -12,5 +12,35 @@
         "footerCaption": "Najbolja teretana u gradu.",
         "copyright": "Odsek za softversko inženjerstvo, Univerzitet u Beograd, Elektrotehnički fakultet",
         "navigation": "Navigacija"
+    },
+
+    "trainings": {
+        "trainings": "Treninzi",
+        "schedule": "raspored",
+        "Schedule": "raspored",
+        
+        "yoga": "joga",
+        "Yoga": "Joga",
+        "yoga1": "Klasična joga",
+        "yoga2": "Hatha joga",
+        "yoga3": "Jain joga",
+
+        "pilates": "pilates",
+        "Pilates": "Pilates",
+        "pilates1": "Klasični pilates",
+        "pilates2": "Pilates na strunjačama",
+        "pilates3": "Reformer pilates",
+
+        "core": "jezgro",
+        "Core": "Jezgro",
+        "core1": "Ojačavanje leđne muskulature",
+        "core2": "Intra-abdominalni pritisak ",
+        "core3": "Vežbe za jezgro pri borilačkim veštinama ",
+
+        "cardio": "kardio",
+        "Cardio": "Kardio",
+        "cardio1": "Sprint",
+        "cardio2": "Intervalni trening visokog intenziteta ",
+        "cardio3": "Biciklizam"
     }
 }

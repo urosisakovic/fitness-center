@@ -42,5 +42,20 @@
         "cardio1": "Sprint",
         "cardio2": "Intervalni trening visokog intenziteta ",
         "cardio3": "Biciklizam"
+    },
+
+    "contact": {
+        "address": "Adresa",
+        "email": "Mejl",
+        "telephone": "Telefon"
+    },
+
+    "myaccount": {
+        "bookedTr": "Zakazani treninzi",
+        "training": "Trening",
+        "date": "Datum",
+        "time": "Vreme",
+        "cancelTr": "Otkaži trening",
+        "cancel": "Otkaži"
     }
 }

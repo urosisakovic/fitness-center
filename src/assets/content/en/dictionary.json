@@ -45,5 +45,20 @@
 
         "schedule": "schedule",
         "Schedule": "Schedule"
+    },
+
+    "contact": {
+        "address": "Address",
+        "email": "Email",
+        "telephone": "Telephone"
+    },
+
+    "myaccount": {
+        "bookedTr": "Booked trainings",
+        "training": "Training",
+        "date": "Date",
+        "time": "Time",
+        "cancelTr": "Cancel Training",
+        "cancel": "Cancel"
     }
 }

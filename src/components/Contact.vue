@@ -6,17 +6,17 @@
 
     <div class="row">
       <div class="col-md-4 text-center">
-        <h2>Address</h2>
+        <h2>{{ words.address }}</h2>
         <p>Jurija Gagarina 217</p>
       </div>
 
       <div class="col-md-4 text-center">
-        <h2>Email</h2>
+        <h2>{{ words.email }}</h2>
         <p>contact@bestgym.rs</p>
       </div>
 
       <div class="col-md-4 text-center">
-        <h2>Telephones</h2>
+        <h2>{{ words.telephone }}</h2>
         <p>
           064/0555123<br>
           064/0555123
@@ -28,4 +28,33 @@
 </template>
 
 <script>
+export default {
+  data() {
+      return {
+        words: {}
+      }
+  },
+   methods: {
+		englishLanguage: function() {
+			var currUrl = this.$route.path;
+
+			if (currUrl.startsWith("/en"))
+				return true;
+			else if (currUrl.startsWith("/sr"))
+				return false;
+			else
+				return true;
+    }
+   },
+	mounted() {
+		if (this.englishLanguage()) {
+			console.log("English");
+			this.words = require("../assets/content/en/dictionary.json").contact
+		}
+		else {
+			console.log("Serbian");
+			this.words = require("../assets/content/sr/dictionary.json").contact
+		}
+	}
+}
 </script>

@@ -55,11 +55,11 @@ export default {
             yogaLink: "/services/training/yoga",
             yogaLink1: "/services/training/yoga/classical-yoga",
             yogaLink2: "/services/training/yoga/hatha-yoga",
-            yogaLink3: "/services/training/yoga/yoga-3",
+            yogaLink3: "/services/training/yoga/jain-yoga",
 
             pilatesLink: "/services/training/pilates",
-            pilatesLink1: "/services/training/pilates/pilates-1",
-            pilatesLink2: "/services/training/pilates/pilates-2",
+            pilatesLink1: "/services/training/pilates/classical-pilates",
+            pilatesLink2: "/services/training/pilates/mat-pilates",
             pilatesLink3: "/services/training/pilates/pilates-3",
 
             coreLink: "/services/training/core",

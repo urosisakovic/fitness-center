@@ -26,13 +26,13 @@
     "trainings": [
         {
             "id": "0",
-            "name": "Pilates-1",
+            "name": "Klasični pilates",
             "duration": "60",
             "diff":  4
         },
         {
             "id": "1",
-            "name": "Pilates-2",
+            "name": "Pilates na strunjačama",
             "duration": "45",
             "diff":  3
         },

@@ -26,19 +26,19 @@
     "trainings": [
         {
             "id": "0",
-            "name": "Pilates-1",
+            "name": "Classical Pilates",
             "duration": "60",
             "diff":  4
         },
         {
             "id": "1",
-            "name": "Pilates-2",
+            "name": "Mat Pilates",
             "duration": "45",
             "diff":  3
         },
         {
             "id": "2",
-            "name": "Pilates-3",
+            "name": "Mat Pilates",
             "duration": "90",
             "diff":  5
         }

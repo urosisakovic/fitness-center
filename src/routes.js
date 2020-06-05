@@ -40,12 +40,12 @@ export default [
     {path: '/services/training/yoga', component: TrainingLvl1, props: {content: require("./assets/content/en/services/yoga/yoga.json")}},
     {path: '/services/training/yoga/classical-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/classical-yoga.json")}},
     {path: '/services/training/yoga/hatha-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/hatha-yoga.json")}},
-    {path: '/services/training/yoga/yoga-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/yoga-3.json")}},
+    {path: '/services/training/yoga/jain-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/jain-yoga.json")}},
 
     // Services - Pilates    
     {path: '/services/training/pilates', component: TrainingLvl1, props: {content: require("./assets/content/en/services/pilates/pilates.json")}},
-    {path: '/services/training/pilates/pilates-1', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/pilates-1.json")}},
-    {path: '/services/training/pilates/pilates-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/pilates-2.json")}},
+    {path: '/services/training/pilates/classical-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/classical-pilates.json")}},
+    {path: '/services/training/pilates/mat-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/mat-pilates.json")}},
     {path: '/services/training/pilates/pilates-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/pilates-3.json")}},
 
     // Services - Core
@@ -88,12 +88,12 @@ export default [
     {path: '/en/services/training/yoga', component: TrainingLvl1, props: {content: require("./assets/content/en/services/yoga/yoga.json")}},
     {path: '/en/services/training/yoga/classical-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/classical-yoga.json")}},
     {path: '/en/services/training/yoga/hatha-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/hatha-yoga.json")}},
-    {path: '/en/services/training/yoga/yoga-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/yoga-3.json")}},
+    {path: '/en/services/training/yoga/jain-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/jain-yoga.json")}},
 
     // Services - Pilates    
     {path: '/en/services/training/pilates', component: TrainingLvl1, props: {content: require("./assets/content/en/services/pilates/pilates.json")}},
-    {path: '/en/services/training/pilates/pilates-1', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/pilates-1.json")}},
-    {path: '/en/services/training/pilates/pilates-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/pilates-2.json")}},
+    {path: '/en/services/training/pilates/classical-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/classical-pilates.json")}},
+    {path: '/en/services/training/pilates/mat-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/mat-pilates.json")}},
     {path: '/en/services/training/pilates/pilates-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/pilates-3.json")}},
 
     // Services - Core
@@ -135,12 +135,12 @@ export default [
    {path: '/sr/services/training/yoga', component: TrainingLvl1, props: {content: require("./assets/content/sr/services/yoga/yoga.json")}},
    {path: '/sr/services/training/yoga/classical-yoga', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/yoga/classical-yoga.json")}},
    {path: '/sr/services/training/yoga/hatha-yoga', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/yoga/hatha-yoga.json")}},
-   {path: '/sr/services/training/yoga/yoga-3', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/yoga/yoga-3.json")}},
+   {path: '/sr/services/training/yoga/jain-yoga', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/yoga/jain-yoga.json")}},
 
    // Services - Pilates    
    {path: '/sr/services/training/pilates', component: TrainingLvl1, props: {content: require("./assets/content/sr/services/pilates/pilates.json")}},
-   {path: '/sr/services/training/pilates/pilates-1', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/pilates/pilates-1.json")}},
-   {path: '/sr/services/training/pilates/pilates-2', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/pilates/pilates-2.json")}},
+   {path: '/sr/services/training/pilates/classical-pilates', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/pilates/classical-pilates.json")}},
+   {path: '/sr/services/training/pilates/mat-pilates', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/pilates/mat-pilates.json")}},
    {path: '/sr/services/training/pilates/pilates-3', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/pilates/pilates-3.json")}},
 
    // Services - Core

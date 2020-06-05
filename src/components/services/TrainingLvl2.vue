@@ -62,6 +62,15 @@
             </div>
             <!--/Gallery-->
 
+            <div class="rating-box">
+                <h2>Rate this training</h2>
+                <a class="rating" v-on:click="addRating(1)">1</a>
+                <a class="rating" v-on:click="addRating(2)">2</a>
+                <a class="rating" v-on:click="addRating(3)">3</a>
+                <a class="rating" v-on:click="addRating(4)">4</a>
+                <a class="rating" v-on:click="addRating(5)">5</a>
+            </div>
+
             <div :key="refreshComments">
                 <h2>Comments</h2>
                 <article v-for="comment in content.comments" :key="comment.id" class="media content-section">
@@ -234,6 +243,10 @@ export default {
             var lastWord = splitted[splitted.length - 2];
 
             return "/services/training/" + lastWord
+        },
+
+        addRating: function(rating) {
+            console.log(rating);
         }
     }
 }

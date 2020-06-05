@@ -60,17 +60,17 @@ export default {
             pilatesLink: "/services/training/pilates",
             pilatesLink1: "/services/training/pilates/classical-pilates",
             pilatesLink2: "/services/training/pilates/mat-pilates",
-            pilatesLink3: "/services/training/pilates/pilates-3",
+            pilatesLink3: "/services/training/pilates/refromer-pilates",
 
             coreLink: "/services/training/core",
-            coreLink1: "/services/training/core/core-1",
+            coreLink1: "/services/training/core/sbm",
             coreLink2: "/services/training/core/core-2",
             coreLink3: "/services/training/core/core-3",
 
             cardioLink: "/services/training/cardio",
-            cardioLink1: "/services/training/cardio/cardio-1",
-            cardioLink2: "/services/training/cardio/cardio-2",
-            cardioLink3: "/services/training/cardio/cardio-3",
+            cardioLink1: "/services/training/cardio/sprinting",
+            cardioLink2: "/services/training/cardio/hiit",
+            cardioLink3: "/services/training/cardio/cycling",
 			words: {}
         }
     },

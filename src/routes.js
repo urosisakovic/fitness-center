@@ -46,19 +46,19 @@ export default [
     {path: '/services/training/pilates', component: TrainingLvl1, props: {content: require("./assets/content/en/services/pilates/pilates.json")}},
     {path: '/services/training/pilates/classical-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/classical-pilates.json")}},
     {path: '/services/training/pilates/mat-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/mat-pilates.json")}},
-    {path: '/services/training/pilates/pilates-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/pilates-3.json")}},
+    {path: '/services/training/pilates/reformer-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/reformer-pilates.json")}},
 
     // Services - Core
     {path: '/services/training/core', component: TrainingLvl1, props: {content: require("./assets/content/en/services/core/core.json")}},
-    {path: '/services/training/core/core-1', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-1.json")}},
+    {path: '/services/training/core/sbm', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/sbm.json")}},
     {path: '/services/training/core/core-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-2.json")}},
     {path: '/services/training/core/core-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-3.json")}},
 
     // Services - Cardio
     {path: '/services/training/cardio', component: TrainingLvl1, props: {content: require("./assets/content/en/services/cardio/cardio.json")}},
-    {path: '/services/training/cardio/cardio-1', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/cardio-1.json")}},
-    {path: '/services/training/cardio/cardio-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/cardio-2.json")}},
-    {path: '/services/training/cardio/cardio-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/cardio-3.json")}},
+    {path: '/services/training/cardio/sprinting', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/sprinting.json")}},
+    {path: '/services/training/cardio/hiit', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/hiit.json")}},
+    {path: '/services/training/cardio/cycling', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/cycling.json")}},
 
 
     /*
@@ -94,19 +94,19 @@ export default [
     {path: '/en/services/training/pilates', component: TrainingLvl1, props: {content: require("./assets/content/en/services/pilates/pilates.json")}},
     {path: '/en/services/training/pilates/classical-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/classical-pilates.json")}},
     {path: '/en/services/training/pilates/mat-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/mat-pilates.json")}},
-    {path: '/en/services/training/pilates/pilates-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/pilates-3.json")}},
+    {path: '/en/services/training/pilates/reformer-pilates', component: TrainingLvl2, props: {content: require("./assets/content/en/services/pilates/reformer-pilates.json")}},
 
     // Services - Core
     {path: '/en/services/training/core', component: TrainingLvl1, props: {content: require("./assets/content/en/services/core/core.json")}},
-    {path: '/en/services/training/core/core-1', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-1.json")}},
+    {path: '/en/services/training/core/sbm', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/sbm.json")}},
     {path: '/en/services/training/core/core-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-2.json")}},
     {path: '/en/services/training/core/core-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-3.json")}},
 
     // Services - Cardio
     {path: '/en/services/training/cardio', component: TrainingLvl1, props: {content: require("./assets/content/en/services/cardio/cardio.json")}},
-    {path: '/en/services/training/cardio/cardio-1', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/cardio-1.json")}},
-    {path: '/en/services/training/cardio/cardio-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/cardio-2.json")}},
-    {path: '/en/services/training/cardio/cardio-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/cardio-3.json")}},
+    {path: '/en/services/training/cardio/sprinting', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/sprinting.json")}},
+    {path: '/en/services/training/cardio/hiit', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/hiit.json")}},
+    {path: '/en/services/training/cardio/cycling', component: TrainingLvl2, props: {content: require("./assets/content/en/services/cardio/cycling.json")}},
     
     /*
     *
@@ -141,17 +141,17 @@ export default [
    {path: '/sr/services/training/pilates', component: TrainingLvl1, props: {content: require("./assets/content/sr/services/pilates/pilates.json")}},
    {path: '/sr/services/training/pilates/classical-pilates', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/pilates/classical-pilates.json")}},
    {path: '/sr/services/training/pilates/mat-pilates', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/pilates/mat-pilates.json")}},
-   {path: '/sr/services/training/pilates/pilates-3', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/pilates/pilates-3.json")}},
+   {path: '/sr/services/training/pilates/reformer-pilates', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/pilates/reformer-pilates.json")}},
 
    // Services - Core
    {path: '/sr/services/training/core', component: TrainingLvl1, props: {content: require("./assets/content/sr/services/core/core.json")}},
-   {path: '/sr/services/training/core/core-1', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/core/core-1.json")}},
+   {path: '/sr/services/training/core/sbm', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/core/sbm.json")}},
    {path: '/sr/services/training/core/core-2', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/core/core-2.json")}},
    {path: '/sr/services/training/core/core-3', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/core/core-3.json")}},
 
    // Services - Cardio
    {path: '/sr/services/training/cardio', component: TrainingLvl1, props: {content: require("./assets/content/sr/services/cardio/cardio.json")}},
-   {path: '/sr/services/training/cardio/cardio-1', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/cardio/cardio-1.json")}},
-   {path: '/sr/services/training/cardio/cardio-2', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/cardio/cardio-2.json")}},
-   {path: '/sr/services/training/cardio/cardio-3', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/cardio/cardio-3.json")}},
+   {path: '/sr/services/training/cardio/sprinting', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/cardio/sprinting.json")}},
+   {path: '/sr/services/training/cardio/hiit', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/cardio/hiit.json")}},
+   {path: '/sr/services/training/cardio/cycling', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/cardio/cycling.json")}},
 ]

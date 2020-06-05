@@ -26,19 +26,19 @@
     "trainings": [
         {
             "id": "0",
-            "name": "Cardio-1",
+            "name": "Sprint",
             "duration": "60",
             "diff":  4
         },
         {
             "id": "1",
-            "name": "Cardio-2",
+            "name": "Intervalni trening visokog intenziteta",
             "duration": "45",
             "diff":  3
         },
         {
             "id": "2",
-            "name": "Cardio-1",
+            "name": "Sprint",
             "duration": "90",
             "diff":  5
         }

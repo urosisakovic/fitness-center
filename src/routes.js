@@ -38,8 +38,8 @@ export default [
 
     // Services - Yoga
     {path: '/services/training/yoga', component: TrainingLvl1, props: {content: require("./assets/content/en/services/yoga/yoga.json")}},
-    {path: '/services/training/yoga/yoga-1', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/yoga-1.json")}},
-    {path: '/services/training/yoga/yoga-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/yoga-2.json")}},
+    {path: '/services/training/yoga/classical-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/classical-yoga.json")}},
+    {path: '/services/training/yoga/hatha-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/hatha-yoga.json")}},
     {path: '/services/training/yoga/yoga-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/yoga-3.json")}},
 
     // Services - Pilates    
@@ -86,8 +86,8 @@ export default [
 
     // Services - Yoga
     {path: '/en/services/training/yoga', component: TrainingLvl1, props: {content: require("./assets/content/en/services/yoga/yoga.json")}},
-    {path: '/en/services/training/yoga/yoga-1', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/yoga-1.json")}},
-    {path: '/en/services/training/yoga/yoga-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/yoga-2.json")}},
+    {path: '/en/services/training/yoga/classical-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/classical-yoga.json")}},
+    {path: '/en/services/training/yoga/hatha-yoga', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/hatha-yoga.json")}},
     {path: '/en/services/training/yoga/yoga-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/yoga/yoga-3.json")}},
 
     // Services - Pilates    
@@ -133,8 +133,8 @@ export default [
 
    // Services - Yoga
    {path: '/sr/services/training/yoga', component: TrainingLvl1, props: {content: require("./assets/content/sr/services/yoga/yoga.json")}},
-   {path: '/sr/services/training/yoga/yoga-1', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/yoga/yoga-1.json")}},
-   {path: '/sr/services/training/yoga/yoga-2', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/yoga/yoga-2.json")}},
+   {path: '/sr/services/training/yoga/classical-yoga', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/yoga/classical-yoga.json")}},
+   {path: '/sr/services/training/yoga/hatha-yoga', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/yoga/hatha-yoga.json")}},
    {path: '/sr/services/training/yoga/yoga-3', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/yoga/yoga-3.json")}},
 
    // Services - Pilates    

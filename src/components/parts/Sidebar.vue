@@ -53,8 +53,8 @@ export default {
 		data() {
         return {
             yogaLink: "/services/training/yoga",
-            yogaLink1: "/services/training/yoga/yoga-1",
-            yogaLink2: "/services/training/yoga/yoga-2",
+            yogaLink1: "/services/training/yoga/classical-yoga",
+            yogaLink2: "/services/training/yoga/hatha-yoga",
             yogaLink3: "/services/training/yoga/yoga-3",
 
             pilatesLink: "/services/training/pilates",

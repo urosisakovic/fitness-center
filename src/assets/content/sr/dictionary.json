@@ -57,5 +57,21 @@
         "time": "Vreme",
         "cancelTr": "Otkaži trening",
         "cancel": "Otkaži"
+    },
+
+    "book": {
+        "fn": "Ime",
+        "enterFn": "Unesite ime",
+        "sn": "Prezime",
+        "enterSn": "Unesite prezime",
+        "tn": "Broj telefona",
+        "enterTn": "Unesite broj telefona",
+        "email": "Mejl adresa",
+        "enterEmail": "Unesite mejl adresu",
+        "emailPrivacy": "Nikada necemo podeliti Vasu mejl adresu ni sa kim.",
+        "problemDesc": "Kratak opis problema",
+        "enterProblemDesc": "Unesite kratak opis problema",
+        "downloadPdf": "Preuzmite PDF izveštaj",
+        "submit": "Potvrdite"
     }
 }

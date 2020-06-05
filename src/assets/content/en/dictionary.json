@@ -60,5 +60,21 @@
         "time": "Time",
         "cancelTr": "Cancel Training",
         "cancel": "Cancel"
+    },
+
+    "book": {
+        "fn": "First Name",
+        "enterFn": "Enter First Name",
+        "sn": "Second Name",
+        "enterSn": "Enter Second Name",
+        "tn": "Telephone Number",
+        "enterTn": "Enter Telephone Number",
+        "email": "Email Address",
+        "enterEmail": "Enter Email Address",
+        "emailPrivacy": "We'll never share your email with anyone else.",
+        "problemDesc": "Short Problem Description",
+        "enterProblemDesc": "Enter Short Problem Description",
+        "downloadPdf": "Download PDF Report",
+        "submit": "Submit"
     }
 }

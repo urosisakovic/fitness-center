@@ -34,7 +34,7 @@
           <td> {{ training.date }} </td>
           <td> {{ training.time }}</td>
           <td> {{ training.placesLeft }}</td>
-          <td> <button type="button" class="btn btn-primary">{{ words.book }}</button> </td>
+          <td> <button type="button" class="btn btn-primary" v-on:click="book(training.id)">{{ words.book }}</button> </td>
         </tr>
       </tbody>
 
@@ -110,7 +110,27 @@ export default {
           }
         }
       }
+    },
+
+    book: function(id) {
+      var training;
+      for (var i = 0; i < this.curr_trainings.length; i++) {
+        if (this.curr_trainings[i].id == id) {
+          training = this.curr_trainings[i];
+          break;
+        }
+      }
+
+      if (training.placesLeft == 0) {
+        alert("Selected training is full.");
+        return;
+      }
+
+      training.placesLeft--;
+
+      console.log("Success");
     }
+
   },
   mounted() {
     var language = "";

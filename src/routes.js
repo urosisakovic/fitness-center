@@ -51,8 +51,8 @@ export default [
     // Services - Core
     {path: '/services/training/core', component: TrainingLvl1, props: {content: require("./assets/content/en/services/core/core.json")}},
     {path: '/services/training/core/sbm', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/sbm.json")}},
-    {path: '/services/training/core/core-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-2.json")}},
-    {path: '/services/training/core/core-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-3.json")}},
+    {path: '/services/training/core/iap', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/iap.json")}},
+    {path: '/services/training/core/mace', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/mace.json")}},
 
     // Services - Cardio
     {path: '/services/training/cardio', component: TrainingLvl1, props: {content: require("./assets/content/en/services/cardio/cardio.json")}},
@@ -99,8 +99,8 @@ export default [
     // Services - Core
     {path: '/en/services/training/core', component: TrainingLvl1, props: {content: require("./assets/content/en/services/core/core.json")}},
     {path: '/en/services/training/core/sbm', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/sbm.json")}},
-    {path: '/en/services/training/core/core-2', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-2.json")}},
-    {path: '/en/services/training/core/core-3', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/core-3.json")}},
+    {path: '/en/services/training/core/iap', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/iap.json")}},
+    {path: '/en/services/training/core/mace', component: TrainingLvl2, props: {content: require("./assets/content/en/services/core/mace.json")}},
 
     // Services - Cardio
     {path: '/en/services/training/cardio', component: TrainingLvl1, props: {content: require("./assets/content/en/services/cardio/cardio.json")}},
@@ -146,8 +146,8 @@ export default [
    // Services - Core
    {path: '/sr/services/training/core', component: TrainingLvl1, props: {content: require("./assets/content/sr/services/core/core.json")}},
    {path: '/sr/services/training/core/sbm', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/core/sbm.json")}},
-   {path: '/sr/services/training/core/core-2', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/core/core-2.json")}},
-   {path: '/sr/services/training/core/core-3', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/core/core-3.json")}},
+   {path: '/sr/services/training/core/iap', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/core/iap.json")}},
+   {path: '/sr/services/training/core/mace', component: TrainingLvl2, props: {content: require("./assets/content/sr/services/core/mace.json")}},
 
    // Services - Cardio
    {path: '/sr/services/training/cardio', component: TrainingLvl1, props: {content: require("./assets/content/sr/services/cardio/cardio.json")}},

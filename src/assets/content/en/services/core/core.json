@@ -32,13 +32,13 @@
         },
         {
             "id": "1",
-            "name": "Core-2",
+            "name": "Intra-abdominal pressure",
             "duration": "45",
             "diff":  3
         },
         {
             "id": "2",
-            "name": "Core-3",
+            "name": "Martial Arts Core Excercises",
             "duration": "90",
             "diff":  5
         }

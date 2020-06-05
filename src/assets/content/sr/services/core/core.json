@@ -32,13 +32,13 @@
         },
         {
             "id": "1",
-            "name": "Core-2",
+            "name": "Intra-abdominalni pritisak",
             "duration": "45",
             "diff":  3
         },
         {
             "id": "2",
-            "name": "Core-3",
+            "name": "Vežbe za jezgro pri borilačkim veštinama",
             "duration": "90",
             "diff":  5
         }

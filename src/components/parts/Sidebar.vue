@@ -60,12 +60,12 @@ export default {
             pilatesLink: "/services/training/pilates",
             pilatesLink1: "/services/training/pilates/classical-pilates",
             pilatesLink2: "/services/training/pilates/mat-pilates",
-            pilatesLink3: "/services/training/pilates/refromer-pilates",
+            pilatesLink3: "/services/training/pilates/reformer-pilates",
 
             coreLink: "/services/training/core",
             coreLink1: "/services/training/core/sbm",
-            coreLink2: "/services/training/core/core-2",
-            coreLink3: "/services/training/core/core-3",
+            coreLink2: "/services/training/core/iap",
+            coreLink3: "/services/training/core/mace",
 
             cardioLink: "/services/training/cardio",
             cardioLink1: "/services/training/cardio/sprinting",

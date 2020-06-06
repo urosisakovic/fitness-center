@@ -9,10 +9,14 @@
       </div>
     
       <div class="col-md-4">
-        <h1>Best trainings</h1>
-        <p v-for="training in content.best_trainings" :key="training.name">
-          {{training.name}}
-        </p>
+        <h1> {{ words.bestTr }} </h1>
+        <p> {{ words.bestTrPara }} </p>
+
+        <ul>
+          <li  v-for="pop in words.popular" :key="pop.id">
+            <router-link :to="pop.link" class="foot-link"> {{pop.name}}</router-link>
+          </li>
+        </ul>
       </div>
 
     </div>
@@ -51,6 +55,7 @@
 export default {
     data() {
         return {
+          words: {}
         }
     },
     props: {
@@ -61,7 +66,23 @@ export default {
     methods: {
         getImgUrl: function(pic) {
             return require('../assets/images/' + pic.file)
+        },
+        englishLanguage: function() {
+          var currUrl = this.$route.path;
+
+          if (currUrl.startsWith("/en"))
+            return true;
+          else if (currUrl.startsWith("/sr"))
+            return false;
+          else
+            return true; 
         }
+    },
+    mounted() {
+      if (this.englishLanguage())
+        this.words = require("../assets/content/en/dictionary.json").home
+      else
+        this.words = require("../assets/content/sr/dictionary.json").home
     }
 }
 </script>

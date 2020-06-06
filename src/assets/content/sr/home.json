@@ -2,7 +2,7 @@
     "images1": [
         {
             "id": "0",
-            "file": "cardio_0.png",
+            "file": "pilates_1.png",
             "alt": "Image 0"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "id": "7",
-            "file": "pilates_1.png",
+            "file": "cardio_0.png",
             "alt": "Image 1"
         }
     ],

@@ -107,5 +107,27 @@
         "noPermissionMsg": "You must visit this training in order to leave a comment!",
         "ratingSuccesMsg": "You have successfully rated this training!",
         "ratingNoPermissionMsg": "You must visit this training in order to rate it!"
+    },
+
+    "home": {
+        "bestTr": "Popular Trainings",
+        "bestTrPara": "Most recommened by our users: ",
+        "popular": [
+            {
+                "id": "0",
+                "name": "Classical Yoga",
+                "link": "/services/training/yoga/classical-yoga"
+            },
+            {
+                "id": "1",
+                "name": "Reformer Pilates",
+                "link": "/services/training/pilates/reformer-pilates"
+            },
+            {
+                "id": "2",
+                "name": "Sprinting",
+                "link": "/services/training/cardio/sprinting"
+            }
+        ]
     }
 }

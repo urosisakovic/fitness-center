@@ -105,5 +105,27 @@
         "noPermissionMsg": "Morate posetiti trening da biste ostavili komentar!",
         "ratingSuccesMsg": "Uspešno ste ocenili trening!",
         "ratingNoPermissionMsg": "Morate posetiti trening da biste ga ocenili!"
+    },
+
+    "home": {
+        "bestTr": "Najpopularniji treninzi",
+        "bestTrPara": "Preporučeni treninzi od strane našim klijenata:",
+        "popular": [
+            {
+                "id": "0",
+                "name": "Klasična joga",
+                "link": "/sr/services/training/yoga/classical-yoga"
+            },
+            {
+                "id": "1",
+                "name": "Reformer pilates",
+                "link": "/sr/services/training/pilates/reformer-pilates"
+            },
+            {
+                "id": "2",
+                "name": "Sprint",
+                "link": "/sr/services/training/cardio/sprinting"
+            }
+        ]
     }
 }

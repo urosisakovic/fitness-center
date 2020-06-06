@@ -101,5 +101,11 @@
           "id": 2,
           "text": "Jain Yoga"
         }
-    ]
+    ],
+    
+    "services": {
+        "noPermissionMsg": "You must visit this training in order to leave a comment!",
+        "ratingSuccesMsg": "You have successfully rated this training!",
+        "ratingNoPermissionMsg": "You must visit this training in order to rate it!"
+    }
 }

@@ -62,6 +62,8 @@
             </div>
             <!--/Gallery-->
 
+            <div id="success-rate-msg" class="container" role="alert"></div>
+
             <div class="rating-box">
                 <h2>Rate this training</h2>
                 <a class="rating" v-on:click="addRating(1)">1</a>
@@ -70,6 +72,8 @@
                 <a class="rating" v-on:click="addRating(4)">4</a>
                 <a class="rating" v-on:click="addRating(5)">5</a>
             </div>
+
+            <div id="no-permission-msg" class="container" role="alert"></div>
 
             <div :key="refreshComments">
                 <h2>Comments</h2>
@@ -102,7 +106,8 @@ export default {
     },
     data() {
         return {
-            refreshComments: 0
+            refreshComments: 0,
+            words: {}
         }
     },
     props: {
@@ -173,7 +178,10 @@ export default {
 
         leaveComment: function() {
             if (!this.hasCommentPrivilage()) {
-                alert("You must visit a training before leaving a comment!");
+                var noPermissionMsg = document.getElementById("no-permission-msg");
+                noPermissionMsg.innerHTML = this.words.noPermissionMsg;
+                noPermissionMsg.classList.add("alert-danger");
+                noPermissionMsg.classList.add("alert")
                 return;
             }
 
@@ -247,7 +255,36 @@ export default {
 
         addRating: function(rating) {
             console.log(rating);
+            var addRatingSuccess = document.getElementById("success-rate-msg");
+
+            if (this.hasCommentPrivilage()) {
+                addRatingSuccess.innerHTML = this.words.ratingSuccesMsg;
+                addRatingSuccess.classList.add("alert-success");
+                addRatingSuccess.classList.add("alert")    
+            }
+            else{
+                addRatingSuccess.innerHTML = this.words.ratingNoPermissionMsg;
+                addRatingSuccess.classList.add("alert-danger");
+                addRatingSuccess.classList.add("alert")    
+            }
+        },
+
+        englishLanguage: function() {
+			var currUrl = this.$route.path;
+
+			if (currUrl.startsWith("/en"))
+				return true;
+			else if (currUrl.startsWith("/sr"))
+				return false;
+			else
+				return true;
         }
-    }
+    },
+     mounted() {
+		if (this.englishLanguage()) 
+			this.words = require("../../assets/content/en/dictionary.json").services;
+		else 
+			this.words = require("../../assets/content/sr/dictionary.json").services;
+	}
 }
 </script>

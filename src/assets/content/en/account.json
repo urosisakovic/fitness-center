@@ -24,7 +24,11 @@
     "attended": [
         {
             "type": "Yoga",
-            "subtype": "Classical Yoga"
+            "subtype": "classical-yoga"
+        },
+        {
+            "type": "Pilates",
+            "subtype": "classical-pilates"
         }
     ]
 }

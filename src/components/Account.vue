@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
+  <div class="container" id="acc-wrap">
     <div style="text-align: center; margin-bottom: 50px;">
       <img :src="getImgUrl(content.image)" class="rounded-circle">
       <h1>{{ content.name }}</h1>
     </div>
 
     <h2> {{ words.bookedTr }} </h2>
-    <table class="table table-striped table-dark" style="text-align: center;" :key="changeTable">
+    <table id="tr-table" class="table table-striped table-dark" style="text-align: center;" :key="changeTable">
       <thead>
         <tr>
           <td> {{ words.training }} </td>
@@ -168,3 +168,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+#acc-wrap {
+  margin-bottom: 300px;
+}
+</style>

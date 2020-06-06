@@ -54,3 +54,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+#multi-item-example {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+</style>

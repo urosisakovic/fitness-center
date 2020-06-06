@@ -1,7 +1,8 @@
 body {
   background: #111111;
   color: #bbbbbb;
-  margin-top: 5rem;
+  margin-top: 13rem;
+  min-height: 700px;
 }
 
 .bg-steel {
@@ -263,4 +264,15 @@ body {
 
 .rating-box {
 	margin-bottom: 30px;
+}
+
+#banner {
+	margin: 0px;
+	height: 120px;
+}
+
+@media (max-width: 768px) {
+    #banner {
+		height: 120px;
+	}
 }

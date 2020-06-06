@@ -189,7 +189,7 @@ export default {
       document.getElementById("problem-desc").placeholder = this.words.enterProblemDesc;
 
       var successMsg = document.getElementById("success-msg");
-      successMsg.innerHTML = "You have successfully booked an appointment!";
+      successMsg.innerHTML = this.words.successMsg;
       successMsg.classList.add("alert-success");
       successMsg.classList.add("alert")
     },

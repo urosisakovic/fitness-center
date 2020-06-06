@@ -73,6 +73,7 @@
         "enterProblemDesc": "Unesite kratak opis problema",
         "downloadPdf": "Preuzmite PDF izveštaj",
         "submit": "Potvrdite",
+        "successMsg": "Uspešno ste rezervisali termin!",
 
         "chooseTr": "Izaberite Vaš idealan trening",
         "trainingType": "Tip treninga",

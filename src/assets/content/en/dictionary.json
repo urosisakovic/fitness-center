@@ -75,6 +75,7 @@
         "enterProblemDesc": "Enter Short Problem Description",
         "downloadPdf": "Download PDF Report",
         "submit": "Submit",
+        "successMsg": "You have successfully booked an appointment!",
 
         "chooseTr": "Choose Your Perfect Training",
         "trainingType": "Training Type",

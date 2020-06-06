@@ -6,8 +6,8 @@
 
             <nav aria-label="breadcrumb" class="breadcrumbs">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/home">Home</a></li>
-                    <li class="breadcrumb-item"><a href="/services/training">Trainings</a></li>
+                    <li class="breadcrumb-item"><a :href="words.homeLink">{{ words.home }}</a></li>
+                    <li class="breadcrumb-item"><a :href="words.trainingLink">{{ words.trainings }}</a></li>
                     <li class="breadcrumb-item"><a :href="getBreadcrumbURL()"> {{ getTrainingType() }} </a></li>
                     <li class="breadcrumb-item active" aria-current="page"> {{ getLastURLWord() }}</li>
                 </ol>
@@ -16,12 +16,12 @@
             <h1>{{content.name}} </h1>
             <p> {{content.desc}} </p>
 
-            <table class="table table-striped table-dark" style="text-align: center">
+            <table id="info-table" class="table table-striped table-dark" style="text-align: center">
                 <thead>
                     <tr>
-                        <th> Duration </th>
-                        <th> Difficulty </th>
-                        <th> User Mark </th>
+                        <th> {{ words.duration }} </th>
+                        <th> {{ words.difficulty }} </th>
+                        <th> {{ words.userMark }} </th>
                     </tr>
                 </thead>
 
@@ -62,10 +62,9 @@
             </div>
             <!--/Gallery-->
 
-            <div id="success-rate-msg" class="container" role="alert"></div>
-
-            <div class="rating-box">
-                <h2>Rate this training</h2>
+            <div id="rating-box">
+                <h2>{{ words.rateCaption }}</h2>
+                <div id="success-rate-msg" class="container" role="alert"></div>
                 <a class="rating" v-on:click="addRating(1)">1</a>
                 <a class="rating" v-on:click="addRating(2)">2</a>
                 <a class="rating" v-on:click="addRating(3)">3</a>
@@ -73,10 +72,9 @@
                 <a class="rating" v-on:click="addRating(5)">5</a>
             </div>
 
-            <div id="no-permission-msg" class="container" role="alert"></div>
-
-            <div :key="refreshComments">
-                <h2>Comments</h2>
+            <div :key="refreshComments" id="comments-area">
+                <h2>{{ words.comments }}</h2>
+                <div id="no-permission-msg" class="container" role="alert"></div>
                 <article v-for="comment in content.comments" :key="comment.id" class="media content-section">
                     <div class="media-body">
                     <div class="article-metadata">
@@ -89,8 +87,8 @@
             </div>
 
             <div class="form-group">
-                <textarea class="form-control" id="comment-text-area" rows="3">Tell us about your experience regarding this training session!</textarea>
-                <button type="submit" class="btn btn-primary" v-on:click="leaveComment()">Leave a comment</button>
+                <textarea class="form-control" id="comment-text-area" rows="3" :value="words.commentTextArea"></textarea>
+                <button type="submit" class="btn btn-primary" v-on:click="leaveComment()">{{ words.leaveComment }}</button>
             </div>
 
         </div>
@@ -107,7 +105,9 @@ export default {
     data() {
         return {
             refreshComments: 0,
-            words: {}
+            words: {},
+            srb: {},
+            eng: {}
         }
     },
     props: {
@@ -204,30 +204,68 @@ export default {
             var splitted = currUrl.split('/');
             var lastWord = splitted[splitted.length - 1];
 
-            if (lastWord == "classical-yoga")
-                return "Classical Yoga"
-            else if (lastWord == "hatha-yoga")
-                return "Hatha Yoga"
+            if (lastWord == "classical-yoga") {
+                if (this.englishLanguage())
+                    return this.eng.yoga1;
+                else
+                    return this.srb.yoga1;
+            }
+            else if (lastWord == "hatha-yoga") {
+                if (this.englishLanguage())
+                    return this.eng.yoga2;
+                else
+                    return this.srb.yoga2;
+            }
             else if (lastWord == "jain-yoga")
-                return "Jain Yoga"
+                if (this.englishLanguage())
+                    return this.eng.yoga3;
+                else
+                    return this.srb.yoga3;
             else if (lastWord == "classical-pilates")
-                return "Classical Pilates"
+                if (this.englishLanguage())
+                    return this.eng.pilates1;
+                else
+                    return this.srb.pilates1;
             else if (lastWord == "mat-pilates")
-                return "Mat Pilates"
+                if (this.englishLanguage())
+                    return this.eng.pilates2;
+                else
+                    return this.srb.pilates2;
             else if (lastWord == "reformer-pilates")
-                return "Reformer Pilates"
+                if (this.englishLanguage())
+                    return this.eng.pilates3;
+                else
+                    return this.srb.pilates3;
             else if (lastWord == "sbm")
-                return "Strengthening back musculature"
+                if (this.englishLanguage())
+                    return this.eng.core1;
+                else
+                    return this.srb.core1;
             else if (lastWord == "iap")
-                return "Intra-abdominal pressure"
+                if (this.englishLanguage())
+                    return this.eng.core2;
+                else
+                    return this.srb.core2;
             else if (lastWord == "mace")
-                return "Martial Arts Core Excercises"
+                if (this.englishLanguage())
+                    return this.eng.core3;
+                else
+                    return this.srb.core3;
             else if (lastWord == "sprinting")
-                return "Sprinting"
+                if (this.englishLanguage())
+                    return this.eng.cardio1;
+                else
+                    return this.srb.cardio1;
             else if (lastWord == "hiit")
-                return "High-intensity interval training "
+                if (this.englishLanguage())
+                    return this.eng.cardio2;
+                else
+                    return this.srb.cardio2;
             else if (lastWord == "cycling")
-                return "Cycling"
+                if (this.englishLanguage())
+                    return this.eng.cardio3;
+                else
+                    return this.srb.cardio3;
         },
 
         getTrainingType: function() {
@@ -235,14 +273,27 @@ export default {
             var splitted = currUrl.split('/');
             var lastWord = splitted[splitted.length - 2];
 
-            if (lastWord == "yoga")
-                return "Yoga"
-            else if (lastWord == "pilates")
+            if (lastWord == "yoga") {
+                if (this.englishLanguage())
+                    return "Yoga"
+                else
+                    return "Joga"
+            }
+            else if (lastWord == "pilates") {
                 return "Pilates"
-            else if (lastWord == "core")
-                return "Core"
-            else if (lastWord == "cardio")
-                return "Cardio"
+            }
+            else if (lastWord == "core") {
+                if (this.englishLanguage())
+                    return "Core"
+                else
+                    return "Jezgro"
+            }
+            else if (lastWord == "cardio") {
+                if (this.englishLanguage())
+                    return "Cardio"
+                else
+                    return "Kardio"
+            }
         },
 
         getBreadcrumbURL: function() {
@@ -282,9 +333,31 @@ export default {
     },
      mounted() {
 		if (this.englishLanguage()) 
-			this.words = require("../../assets/content/en/dictionary.json").services;
+			this.words = require("../../assets/content/en/dictionary.json").tr1;
 		else 
-			this.words = require("../../assets/content/sr/dictionary.json").services;
-	}
+			this.words = require("../../assets/content/sr/dictionary.json").tr1;
+
+        this.eng = require("../../assets/content/en/dictionary.json").trainings;
+        this.srb = require("../../assets/content/sr/dictionary.json").trainings;
+    }
 }
 </script>
+
+<style scoped>
+#info-table {
+    margin-top: 50px;
+}
+
+#multi-item-example {
+    margin-top: 50px;
+}
+
+#rating-box {
+    margin-top: 50px;
+}
+
+#comments-area {
+    margin-top: 50px;
+}
+
+</style>

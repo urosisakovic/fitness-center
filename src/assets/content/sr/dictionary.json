@@ -101,12 +101,6 @@
         }
     ],
 
-    "services": {
-        "noPermissionMsg": "Morate posetiti trening da biste ostavili komentar!",
-        "ratingSuccesMsg": "Uspešno ste ocenili trening!",
-        "ratingNoPermissionMsg": "Morate posetiti trening da biste ga ocenili!"
-    },
-
     "home": {
         "bestTr": "Popularni treninzi",
         "bestTrPara": "Naši klijenti poručuju:",
@@ -137,6 +131,14 @@
         "home": "Početna",
         "homeLink": "/sr/home",
         "trainings": "Treninzi",
-        "trainingsLink": "/sr/services/training"
+        "trainingsLink": "/sr/services/training",
+        "noPermissionMsg": "Morate posetiti trening da biste ostavili komentar!",
+        "ratingSuccesMsg": "Uspešno ste ocenili trening!",
+        "ratingNoPermissionMsg": "Morate posetiti trening da biste ga ocenili!",
+        "userMark": "Ocena korisnika",
+        "rateCaption": "Ocenite ovaj trening",
+        "comments": "Komentari",
+        "leaveComment": "Ostavite komentar",
+        "commentTextArea": "Kažite nam o Vašem iskustvu na ovom treningu!"
     }
 }

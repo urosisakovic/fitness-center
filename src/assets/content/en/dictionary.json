@@ -102,12 +102,6 @@
           "text": "Jain Yoga"
         }
     ],
-    
-    "services": {
-        "noPermissionMsg": "You must visit this training in order to leave a comment!",
-        "ratingSuccesMsg": "You have successfully rated this training!",
-        "ratingNoPermissionMsg": "You must visit this training in order to rate it!"
-    },
 
     "home": {
         "bestTr": "Popular Trainings",
@@ -139,6 +133,14 @@
         "home": "Home",
         "homeLink": "/home",
         "trainings": "Trainings",
-        "trainingsLink": "/services/training"
+        "trainingsLink": "/services/training",
+        "noPermissionMsg": "You must visit this training in order to leave a comment!",
+        "ratingSuccesMsg": "You have successfully rated this training!",
+        "ratingNoPermissionMsg": "You must visit this training in order to rate it!",
+        "userMark": "User Mark",
+        "rateCaption": "Rate this training",
+        "comments": "Comments",
+        "leaveComment": "Leave a comment",
+        "commentTextArea": "Tell us about your experience regarding this training session!"
     }
 }

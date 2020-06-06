@@ -271,8 +271,24 @@ body {
 	height: 120px;
 }
 
+.home-gallery {
+	margin-top: 100px;
+}
+
+.tr-gallery {
+	margin-top: 100px;
+}
+
 @media (max-width: 768px) {
     #banner {
 		height: 120px;
 	}
+	.home-gallery {
+		margin-top: 0px;
+	}
+
+	.tr-gallery {
+		margin-top: 0px;
+	}
 }
+

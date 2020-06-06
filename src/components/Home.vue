@@ -22,7 +22,7 @@
     </div>
 
     <!--Gallery-->
-    <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+    <div id="multi-item-example" class="home-gallery carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
       <div class="controls-top">
           <a class="control-button" href="#multi-item-example" data-slide="prev"><i>&lt;</i></a>

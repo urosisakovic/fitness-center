@@ -108,8 +108,8 @@
     },
 
     "home": {
-        "bestTr": "Najpopularniji treninzi",
-        "bestTrPara": "Preporučeni treninzi od strane našim klijenata:",
+        "bestTr": "Popularni treninzi",
+        "bestTrPara": "Naši klijenti poručuju:",
         "popular": [
             {
                 "id": "0",
@@ -127,5 +127,16 @@
                 "link": "/sr/services/training/cardio/sprinting"
             }
         ]
+    },
+
+    "tr1": {
+        "tableCaption": "Izaberite Vaš idealan trening",
+        "name": "Ime",
+        "duration": "Trajanje",
+        "difficulty": "Težina",
+        "home": "Početna",
+        "homeLink": "/sr/home",
+        "trainings": "Treninzi",
+        "trainingsLink": "/sr/services/training"
     }
 }

@@ -129,5 +129,16 @@
                 "link": "/services/training/cardio/sprinting"
             }
         ]
+    },
+
+    "tr1": {
+        "tableCaption": "Choose your perfect training type",
+        "name": "Name",
+        "duration": "Duration",
+        "difficulty": "Difficulty",
+        "home": "Home",
+        "homeLink": "/home",
+        "trainings": "Trainings",
+        "trainingsLink": "/services/training"
     }
 }

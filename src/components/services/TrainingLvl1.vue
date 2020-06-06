@@ -6,8 +6,8 @@
 
             <nav aria-label="breadcrumb" class="breadcrumbs">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/home">Home</a></li>
-                    <li class="breadcrumb-item"><a href="/services/training">Trainings</a></li>
+                    <li class="breadcrumb-item"><a :href="words.homeLink">{{ words.home }}</a></li>
+                    <li class="breadcrumb-item"><a :href="words.trainingsLink">{{ words.trainings }}</a></li>
                     <li class="breadcrumb-item active" aria-current="page"> {{ getLastURLWord() }}</li>
                 </ol>
             </nav>
@@ -15,13 +15,13 @@
             <h1>{{content.name}} </h1>
             <p> {{content.desc}} </p>
 
-            <h2> Choose your perfect training type! </h2>
+            <h2 id="table-hdr"> {{ words.tableCaption }} </h2>
             <table class="table table-striped table-dark" style="text-align: center">
               <thead>
                 <tr>
-                  <td>Name</td>
-                  <td>Duration</td>
-                  <td>Difficulty</td>
+                  <td>{{ words.name }}</td>
+                  <td>{{ words.duration }}</td>
+                  <td>{{ words.difficulty }}</td>
                 </tr>
               </thead>
 
@@ -76,6 +76,7 @@ export default {
     },
     data() {
         return {
+            words: {}
         }
     },
     props: {
@@ -92,15 +93,57 @@ export default {
             var splitted = currUrl.split('/');
             var lastWord = splitted[splitted.length - 1];
 
-            if (lastWord == "yoga")
-                return "Yoga"
-            else if (lastWord == "pilates")
+            if (lastWord == "yoga") {
+                if (this.englishLanguage())
+                    return "Yoga"
+                else
+                    return "Joga"
+            }
+            else if (lastWord == "pilates") {
                 return "Pilates"
-            else if (lastWord == "core")
-                return "Core"
-            else if (lastWord == "cardio")
-                return "Cardio"
+            }
+            else if (lastWord == "core") {
+                if (this.englishLanguage())
+                    return "Core"
+                else
+                    return "Jezgro"
+            }
+            else if (lastWord == "cardio") {
+                if (this.englishLanguage())
+                    return "Cardio"
+                else
+                    return "Kardio"
+            }
+        },
+        englishLanguage: function() {
+          var currUrl = this.$route.path;
+
+          if (currUrl.startsWith("/en"))
+            return true;
+          else if (currUrl.startsWith("/sr"))
+            return false;
+          else
+            return true; 
         }
+    },
+    mounted() {
+      if (this.englishLanguage())
+        this.words = require("../../assets/content/en/dictionary.json").tr1
+      else
+        this.words = require("../../assets/content/sr/dictionary.json").tr1
     }
 }
 </script>
+
+<style scoped>
+#table-hdr {
+    margin-top: 50px;
+}
+
+#multi-item-example {
+    margin-top: 50px; 
+    margin-bottom: 50px;   
+}
+
+
+</style>

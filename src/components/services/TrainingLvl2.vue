@@ -7,7 +7,7 @@
             <nav aria-label="breadcrumb" class="breadcrumbs">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a :href="words.homeLink">{{ words.home }}</a></li>
-                    <li class="breadcrumb-item"><a :href="words.trainingLink">{{ words.trainings }}</a></li>
+                    <li class="breadcrumb-item"><a :href="words.trainingsLink">{{ words.trainings }}</a></li>
                     <li class="breadcrumb-item"><a :href="getBreadcrumbURL()"> {{ getTrainingType() }} </a></li>
                     <li class="breadcrumb-item active" aria-current="page"> {{ getLastURLWord() }}</li>
                 </ol>

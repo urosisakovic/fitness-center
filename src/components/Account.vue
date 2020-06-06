@@ -18,7 +18,7 @@
 
       <tbody>
         <tr v-for="training in content.trainings" :key="training.id">
-          <td> {{ training.name }} </td>
+          <td> {{ training.name }}{{ training.subtype }} </td>
           <td> {{ training.date }} </td>
           <td> {{ training.time }} </td>
           <td> <button type="button" :class="'btn btn-danger ' + disabledClass(training.id)" :disabled="isDisabled(training.id)" v-on:click="cancelTr(training.id)"> {{ words.cancel }} </button> </td>
@@ -96,8 +96,6 @@ export default {
       
       var diff = trDate - currDate;
 
-      console.log("diff: " + diff / 1000 / 60);
-
       if (diff > 1800000)
         return true;
       else
@@ -105,8 +103,6 @@ export default {
     },
 
     isDisabled: function(id) {
-      console.log("id: " + id);
-
       for (var i = 0; i < this.content.trainings.length; i++) {
         var tr = this.content.trainings[i];
         if (tr.id == id) {
@@ -144,17 +140,31 @@ export default {
 				return false;
 			else
 				return true;
+    },
+
+    getNextId: function() {
+      var maxId = 0;
+      for (var i = 0; i < this.content.trainings.length; i++) {
+        if (this.content.trainings[i].id > maxId)
+          maxId = this.content.trainings[i].id;
+      }
+      return maxId + 1;
     }
   },
 	mounted() {
-		if (this.englishLanguage()) {
-			console.log("English");
+		if (this.englishLanguage())
 			this.words = require("../assets/content/en/dictionary.json").myaccount
-		}
-		else {
-			console.log("Serbian");
+		else
 			this.words = require("../assets/content/sr/dictionary.json").myaccount
-		}
-	}
+    
+    var retrievedObject = JSON.parse(localStorage.getItem('testObject'));
+  
+    console.log("retrievedObject: " + retrievedObject);
+
+    if (retrievedObject) {
+      retrievedObject.id = this.getNextId();
+      this.content.trainings.push(retrievedObject);
+    }
+  }
 }
 </script>

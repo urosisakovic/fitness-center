@@ -128,6 +128,9 @@ export default {
 
       training.placesLeft--;
 
+      localStorage.setItem('testObject', JSON.stringify(training));
+      console.log('testObject: ' + training);
+
       console.log("Success");
     }
 

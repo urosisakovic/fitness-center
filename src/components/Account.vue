@@ -37,6 +37,10 @@
         </tr>
       </tbody>
     </table>
+
+    <div id="bot-pad">
+    </div>
+
   </div>
 </template>
 
@@ -134,17 +138,18 @@ export default {
           this.content.trainings.splice(i, 1);
 
           var retrievedObject = JSON.parse(localStorage.getItem("bookedTr"));
-          if (!retrievedObject)
-            return;
+          if (!retrievedObject) return;
 
           for (var j = 0; j < retrievedObject.length; j++) {
-            if(tr.date == retrievedObject[j].date &&
+            if (
+              tr.date == retrievedObject[j].date &&
               tr.time == retrievedObject[j].time &&
-              tr.subtype == retrievedObject[j].subtype) {
-                  retrievedObject.splice(j, 1);
-                  localStorage.setItem("bookedTr", JSON.stringify(retrievedObject));
-                  break;
-              }
+              tr.subtype == retrievedObject[j].subtype
+            ) {
+              retrievedObject.splice(j, 1);
+              localStorage.setItem("bookedTr", JSON.stringify(retrievedObject));
+              break;
+            }
           }
 
           this.changeTable = !this.changeTable;
@@ -175,8 +180,7 @@ export default {
     else this.words = require("../assets/content/sr/dictionary.json").myaccount;
 
     var retrievedObject = JSON.parse(localStorage.getItem("bookedTr"));
-    if (!retrievedObject)
-      return;
+    if (!retrievedObject) return;
 
     for (var j = 0; j < retrievedObject.length; j++) {
       var add = true;
@@ -194,11 +198,14 @@ export default {
         retrievedObject[j].id = this.getNextId();
         this.content.trainings.push(retrievedObject[j]);
       }
-
     }
   }
 };
 </script>
 
 <style scoped>
+#bot-pad {
+  width: 100%;
+  height: 200px;
+}
 </style>

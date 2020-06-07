@@ -135,10 +135,10 @@ export default {
 
       training.placesLeft--;
 
-      localStorage.setItem("testObject", JSON.stringify(training));
-      console.log("testObject: " + training);
+      var bookedTr = [];
+      bookedTr.push(training);
 
-      console.log("Success");
+      localStorage.setItem("bookedTr", JSON.stringify(bookedTr));
     }
   },
   mounted() {

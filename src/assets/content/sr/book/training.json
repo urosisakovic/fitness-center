@@ -1,9 +1,7 @@
 {
-    "types": [
-        {
+    "types": [{
             "name": "Joga",
-            "subtypes": [
-                {
+            "subtypes": [{
                     "id": "0",
                     "text": "Klasična joga"
                 },
@@ -19,8 +17,7 @@
         },
         {
             "name": "Pilates",
-            "subtypes": [
-                {
+            "subtypes": [{
                     "id": "0",
                     "text": "Klasični pilates"
                 },
@@ -36,8 +33,7 @@
         },
         {
             "name": "Kardio",
-            "subtypes": [
-                {
+            "subtypes": [{
                     "id": "0",
                     "text": "Sprint"
                 },
@@ -53,8 +49,7 @@
         },
         {
             "name": "Jezgro",
-            "subtypes": [
-                {
+            "subtypes": [{
                     "id": "0",
                     "text": "Ojačavanje leđne muskulature"
                 },
@@ -69,11 +64,9 @@
             ]
         }
     ],
-    "trainings": [
-        {
-            "type": "yoga",
-            "trainings": [
-                {
+    "trainings": [{
+            "type": "joga",
+            "trainings": [{
                     "id": "0",
                     "subtype": "Klasična joga",
                     "date": "20-06-2020",
@@ -119,8 +112,7 @@
         },
         {
             "type": "pilates",
-            "trainings": [
-                {
+            "trainings": [{
                     "id": "0",
                     "subtype": "Klasični pilates",
                     "date": "23-06-2020",
@@ -165,9 +157,8 @@
             ]
         },
         {
-            "type": "core",
-            "trainings": [
-                {
+            "type": "jezgro",
+            "trainings": [{
                     "id": "0",
                     "subtype": "Ojačavanje leđne muskulature",
                     "date": "20-06-2020",
@@ -212,9 +203,8 @@
             ]
         },
         {
-            "type": "cardio",
-            "trainings": [
-                {
+            "type": "kardio",
+            "trainings": [{
                     "id": "0",
                     "subtype": "Sprint",
                     "date": "24-06-2020",

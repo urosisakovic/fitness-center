@@ -76,11 +76,11 @@
       <div id="rating-box">
         <h2>{{ words.rateCaption }}</h2>
         <div id="success-rate-msg" class="container" role="alert"></div>
-        <a class="rating" v-on:click="addRating(1)">1</a>
-        <a class="rating" v-on:click="addRating(2)">2</a>
-        <a class="rating" v-on:click="addRating(3)">3</a>
-        <a class="rating" v-on:click="addRating(4)">4</a>
-        <a class="rating" v-on:click="addRating(5)">5</a>
+        <a href="#" class="rating" v-on:click="addRating(1)">1</a>
+        <a href="#" class="rating" v-on:click="addRating(2)">2</a>
+        <a href="#" class="rating" v-on:click="addRating(3)">3</a>
+        <a href="#" class="rating" v-on:click="addRating(4)">4</a>
+        <a href="#" class="rating" v-on:click="addRating(5)">5</a>
       </div>
 
       <div :key="refreshComments" id="comments-area">
@@ -339,5 +339,20 @@ export default {
 
 #comments-area {
   margin-top: 50px;
+}
+
+
+.rating {
+    font-size: xx-large;
+    margin-right: 50px;
+}
+
+#rating-box a:hover {
+    color: yellow !important;
+    font-size: 35px;
+}
+
+.rating-box {
+    margin-bottom: 30px;
 }
 </style>

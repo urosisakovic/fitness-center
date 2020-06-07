@@ -262,20 +262,6 @@ body {
     background-color: #111111;
 }
 
-.rating {
-    font-size: xx-large;
-    margin-right: 50px;
-}
-
-.rating-box a:hover {
-    color: yellow !important;
-    font-size: 35px;
-}
-
-.rating-box {
-    margin-bottom: 30px;
-}
-
 #banner {
     margin: 0px;
     height: 120px;

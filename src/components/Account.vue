@@ -132,6 +132,21 @@ export default {
         var tr = this.content.trainings[i];
         if (tr.id == id) {
           this.content.trainings.splice(i, 1);
+
+          var retrievedObject = JSON.parse(localStorage.getItem("bookedTr"));
+          if (!retrievedObject)
+            return;
+
+          for (var j = 0; j < retrievedObject.length; j++) {
+            if(tr.date == retrievedObject[j].date &&
+              tr.time == retrievedObject[j].time &&
+              tr.subtype == retrievedObject[j].subtype) {
+                  retrievedObject.splice(j, 1);
+                  localStorage.setItem("bookedTr", JSON.stringify(retrievedObject));
+                  break;
+              }
+          }
+
           this.changeTable = !this.changeTable;
         }
       }
@@ -159,20 +174,31 @@ export default {
       this.words = require("../assets/content/en/dictionary.json").myaccount;
     else this.words = require("../assets/content/sr/dictionary.json").myaccount;
 
-    var retrievedObject = JSON.parse(localStorage.getItem("testObject"));
+    var retrievedObject = JSON.parse(localStorage.getItem("bookedTr"));
+    if (!retrievedObject)
+      return;
 
-    console.log("retrievedObject: " + retrievedObject);
+    for (var j = 0; j < retrievedObject.length; j++) {
+      var add = true;
+      for (var i = 0; i < this.content.trainings.length; i++) {
+        if (
+          this.content.trainings[i].date == retrievedObject[j].date &&
+          this.content.trainings[i].time == retrievedObject[j].time
+        ) {
+          add = false;
+          break;
+        }
+      }
 
-    if (retrievedObject) {
-      retrievedObject.id = this.getNextId();
-      this.content.trainings.push(retrievedObject);
+      if (add) {
+        retrievedObject[j].id = this.getNextId();
+        this.content.trainings.push(retrievedObject[j]);
+      }
+
     }
   }
 };
 </script>
 
 <style scoped>
-#acc-wrap {
-  margin-bottom: 300px;
-}
 </style>

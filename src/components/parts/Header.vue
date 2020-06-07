@@ -4,7 +4,7 @@
       <div class="jumbotron" id="banner" :style="{ backgroundImage: `url( ${image} )` }"></div>
     </a>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-steel">
+    <nav id="uros-navigation" class="navbar navbar-expand-md navbar-dark bg-steel">
       <div class="container-fluid">
         <button
         class="navbar-toggler"
@@ -151,6 +151,25 @@ export default {
       if (style.getPropertyValue("margin-left") == "-250px")
         sb.style.setProperty("margin-left", "0px");
       else sb.style.setProperty("margin-left", "-250px");
+    },
+
+    addButton: function() {
+      var currUrl = this.$route.path;
+      var splittedURL = currUrl.split("/");
+      
+      var idx = 1;
+      if (splittedURL[1] == "sr" || splittedURL[2] == "en")
+        idx++;
+
+      console.log("here");
+      console.log(splittedURL);
+
+      var button = document.getElementById("sidebar-toggle");
+      button.style.display = "none";
+      if (splittedURL[idx] == "services" && splittedURL[idx + 1] == "training" && matchMedia("(max-width: 768px)").matches) {
+        console.log("matches");
+        button.style.display = "inline";
+      } 
     }
   },
   mounted() {
@@ -158,6 +177,8 @@ export default {
       this.words = require("../../assets/content/en/dictionary.json").header_footer;
     else
       this.words = require("../../assets/content/sr/dictionary.json").header_footer;
+
+    this.addButton();
   }
 };
 </script>

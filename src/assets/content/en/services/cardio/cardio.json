@@ -1,8 +1,7 @@
 {
     "name": "Cardio",
     "desc": "Aerobic exercise (also known as cardio) is physical exercise of low to high intensity that depends primarily on the aerobic energy-generating process. 'Aerobic' means 'relating to, involving, or requiring free oxygen', and refers to the use of oxygen to adequately meet energy demands during exercise via aerobic metabolism. Generally, light-to-moderate intensity activities that are sufficiently supported by aerobic metabolism can be performed for extended periods of time. What is generally called aerobic exercise might be better termed 'solely aerobic', because it is designed to be low-intensity enough so that all carbohydrates are aerobically turned into energy. ",
-    "images1": [
-        {
+    "images1": [{
             "id": "0",
             "file": "cardio_0.png",
             "alt": "Image 0"
@@ -24,8 +23,7 @@
         }
 
     ],
-    "images2": [
-        {
+    "images2": [{
             "id": "4",
             "file": "cardio_4.png",
             "alt": "Image 0"
@@ -46,24 +44,23 @@
             "alt": "Image 1"
         }
     ],
-    "trainings": [
-        {
+    "trainings": [{
             "id": "0",
             "name": "Sprinting",
             "duration": "60",
-            "diff":  4
+            "diff": 4
         },
         {
             "id": "1",
             "name": "High-intensity interval training",
             "duration": "45",
-            "diff":  3
+            "diff": 3
         },
         {
             "id": "2",
-            "name": "Sprinting",
+            "name": "Cycling",
             "duration": "90",
-            "diff":  5
+            "diff": 5
         }
     ]
 }

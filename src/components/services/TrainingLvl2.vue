@@ -76,11 +76,11 @@
       <div id="rating-box">
         <h2>{{ words.rateCaption }}</h2>
         <div id="success-rate-msg" class="container" role="alert"></div>
-        <a href="#" class="rating" v-on:click="addRating(1)">1</a>
-        <a href="#" class="rating" v-on:click="addRating(2)">2</a>
-        <a href="#" class="rating" v-on:click="addRating(3)">3</a>
-        <a href="#" class="rating" v-on:click="addRating(4)">4</a>
-        <a href="#" class="rating" v-on:click="addRating(5)">5</a>
+        <a class="rating" v-on:click="addRating(1)">1</a>
+        <a class="rating" v-on:click="addRating(2)">2</a>
+        <a class="rating" v-on:click="addRating(3)">3</a>
+        <a class="rating" v-on:click="addRating(4)">4</a>
+        <a class="rating" v-on:click="addRating(5)">5</a>
       </div>
 
       <div :key="refreshComments" id="comments-area">

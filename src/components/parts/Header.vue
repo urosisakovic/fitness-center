@@ -6,6 +6,14 @@
 
     <nav class="navbar navbar-expand-md navbar-dark bg-steel">
       <div class="container-fluid">
+        <button
+        class="navbar-toggler"
+        type="button"
+        id="sidebar-toggle"
+        aria-expanded="false"
+        v-on:click="sidebarButton()"
+      >Menu</button>
+
         <router-link class="navbar-brand mr-4" :to="makeLanguageRoute(homeLink)">GYM</router-link>
         <button
           class="navbar-toggler"
@@ -136,6 +144,13 @@ export default {
       return {
         url: newUrl
       };
+    },
+    sidebarButton: function() {
+      var sb = document.getElementById("sidebar");
+      var style = window.getComputedStyle(sb);
+      if (style.getPropertyValue("margin-left") == "-250px")
+        sb.style.setProperty("margin-left", "0px");
+      else sb.style.setProperty("margin-left", "-250px");
     }
   },
   mounted() {
@@ -146,3 +161,20 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+#sidebar-toggle {
+  display: none;
+  margin: 0px;
+}
+
+#sidebar-toggle:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #sidebar-toggle {
+    display: inline;
+  }
+}
+</style>

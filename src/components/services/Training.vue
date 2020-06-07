@@ -1,6 +1,6 @@
 <template>
   <div id="wrapper">
-    <app-sidebar></app-sidebar>
+    <app-sidebar id="sidebar"></app-sidebar>
 
     <div class="container" id="content">
       <nav aria-label="breadcrumb" class="breadcrumbs">

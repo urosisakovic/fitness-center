@@ -75,7 +75,7 @@ a:focus {
     text-decoration: none;
     transition: all 0.3s;
     overflow: hidden;
-    margin-top: -3vh;
+    margin-top: -5vh;
 }
 
 #sidebar {
@@ -184,7 +184,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        margin-bottom: 600px;
+        margin-bottom: 580px;
         /* Margin bottom by footer height*/
     }
     .page-footer {

@@ -1,8 +1,7 @@
 {
     "name": "Joga",
     "desc": "Joga (sanskrit: योग yóga - jedinstvo) je drevna metoda samorazvoja poreklom iz Indije , koja podrazumeva upotrebu tehnika: fizičkih položaja (Asana), vežbi upravljanja pranom (energijom) putem disanja (Pranajama), relaksaciono-meditativnih vežbi (Pratjahara), koncentracije (Dharana), meditacije (Dhjana) i samorealizacije (Samadhi). Joga predlaže usvajanje vrednosnog sistema (Jama, Nijama) koji kreira životnu filozofiju iz koje proizilazi novi razvojni životni stil.",
-    "images1": [
-        {
+    "images1": [{
             "id": "0",
             "file": "yoga_0.png",
             "alt": "Image 0"
@@ -22,10 +21,8 @@
             "file": "yoga_3.png",
             "alt": "Image 1"
         }
-
     ],
-    "images2": [
-        {
+    "images2": [{
             "id": "4",
             "file": "yoga_4.png",
             "alt": "Image 0"
@@ -46,24 +43,23 @@
             "alt": "Image 1"
         }
     ],
-    "trainings": [
-        {
+    "trainings": [{
             "id": "0",
             "name": "Klasična joga",
             "duration": "60",
-            "diff":  4
+            "diff": 4
         },
         {
             "id": "1",
             "name": "Hatha joga",
             "duration": "45",
-            "diff":  3
+            "diff": 3
         },
         {
             "id": "2",
             "name": "Jain joga",
             "duration": "90",
-            "diff":  5
+            "diff": 5
         }
     ]
 }

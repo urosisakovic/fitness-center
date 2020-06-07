@@ -9,13 +9,13 @@ import './assets/styles/gallery.css';
 
 Vue.use(VueRouter)
 const router = new VueRouter({
-  routes: Routes,
-  mode: 'history'
+    routes: Routes,
+    mode: 'history'
 });
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
-  router: router
+    render: h => h(App),
+    router: router
 }).$mount('#app')

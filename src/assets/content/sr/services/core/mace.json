@@ -9,55 +9,50 @@
         "author": "Uros Isakovic",
         "text": "Only for the true tryhards.",
         "date": "12-05-2020"
-    }
-],
-"images1": [
-    {
-        "id": "0",
-        "file": "core_0.png",
-        "alt": "Image 0"
-    },
-    {
-        "id": "1",
-        "file": "core_1.png",
-        "alt": "Image 1"
-    },
-    {
-        "id": "2",
-        "file": "core_2.png",
-        "alt": "Image 0"
-    },
-    {
-        "id": "3",
-        "file": "core_3.png",
-        "alt": "Image 1"
-    }
-
-],
-"images2": [
-    {
-        "id": "4",
-        "file": "core_4.png",
-        "alt": "Image 0"
-    },
-    {
-        "id": "5",
-        "file": "core_5.png",
-        "alt": "Image 1"
-    },
-    {
-        "id": "6",
-        "file": "core_6.png",
-        "alt": "Image 0"
-    },
-    {
-        "id": "7",
-        "file": "core_7.png",
-        "alt": "Image 1"
-    }
-],
-    "videos": [
+    }],
+    "images1": [{
+            "id": "0",
+            "file": "core_0.png",
+            "alt": "Image 0"
+        },
         {
+            "id": "1",
+            "file": "core_1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "core_2.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "core_3.png",
+            "alt": "Image 1"
+        }
+    ],
+    "images2": [{
+            "id": "4",
+            "file": "core_4.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "5",
+            "file": "core_5.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "6",
+            "file": "core_6.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "7",
+            "file": "core_7.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [{
             "id": "0",
             "ogg": "0.ogg",
             "mp4": "0.mp4",

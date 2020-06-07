@@ -9,55 +9,50 @@
         "author": "Nikola Barjaktarevic",
         "text": "Really useful if you are looking to improve your sprinting speed and durability in general.",
         "date": "12-05-2020"
-    }
-],
-"images1": [
-    {
-        "id": "0",
-        "file": "cardio_0.png",
-        "alt": "Image 0"
-    },
-    {
-        "id": "1",
-        "file": "cardio_1.png",
-        "alt": "Image 1"
-    },
-    {
-        "id": "2",
-        "file": "cardio_2.png",
-        "alt": "Image 0"
-    },
-    {
-        "id": "3",
-        "file": "cardio_3.png",
-        "alt": "Image 1"
-    }
-
-],
-"images2": [
-    {
-        "id": "4",
-        "file": "cardio_4.png",
-        "alt": "Image 0"
-    },
-    {
-        "id": "5",
-        "file": "cardio_5.png",
-        "alt": "Image 1"
-    },
-    {
-        "id": "6",
-        "file": "cardio_6.png",
-        "alt": "Image 0"
-    },
-    {
-        "id": "7",
-        "file": "cardio_7.png",
-        "alt": "Image 1"
-    }
-],
-    "videos": [
+    }],
+    "images1": [{
+            "id": "0",
+            "file": "cardio_0.png",
+            "alt": "Image 0"
+        },
         {
+            "id": "1",
+            "file": "cardio_1.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "2",
+            "file": "cardio_2.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "3",
+            "file": "cardio_3.png",
+            "alt": "Image 1"
+        }
+    ],
+    "images2": [{
+            "id": "4",
+            "file": "cardio_4.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "5",
+            "file": "cardio_5.png",
+            "alt": "Image 1"
+        },
+        {
+            "id": "6",
+            "file": "cardio_6.png",
+            "alt": "Image 0"
+        },
+        {
+            "id": "7",
+            "file": "cardio_7.png",
+            "alt": "Image 1"
+        }
+    ],
+    "videos": [{
             "id": "0",
             "ogg": "0.ogg",
             "mp4": "0.mp4",

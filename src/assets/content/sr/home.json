@@ -1,6 +1,5 @@
 {
-    "images1": [
-        {
+    "images1": [{
             "id": "0",
             "file": "pilates_1.png",
             "alt": "Image 0"
@@ -20,10 +19,8 @@
             "file": "yoga_3.png",
             "alt": "Image 1"
         }
-
     ],
-    "images2": [
-        {
+    "images2": [{
             "id": "4",
             "file": "core_5.png",
             "alt": "Image 0"
@@ -45,8 +42,7 @@
         }
     ],
     "text": "Fitness centre je moderno opremljen, prilagođen najraznovrsnijim treninzima i najrazličitijim fitnes potrebama vežbača, kao i individualnoj kondiciji svakog člana, oba pola.",
-    "best_trainings": [
-        {
+    "best_trainings": [{
             "name": "Yoga"
         },
         {

@@ -4,16 +4,13 @@
     "duration": "45",
     "diff": "5",
     "avg_mark": "3.9",
-    "comments": [
-        {
-            "id": "0",
-            "author": "Anja Markovic",
-            "text": "Really hard, but at the same time, really beneficial.",
-            "date": "12-05-2020"
-        }
-    ],
-    "images1": [
-        {
+    "comments": [{
+        "id": "0",
+        "author": "Anja Markovic",
+        "text": "Really hard, but at the same time, really beneficial.",
+        "date": "12-05-2020"
+    }],
+    "images1": [{
             "id": "0",
             "file": "pilates_0.png",
             "alt": "Image 0"
@@ -33,10 +30,8 @@
             "file": "pilates_3.png",
             "alt": "Image 1"
         }
-
     ],
-    "images2": [
-        {
+    "images2": [{
             "id": "4",
             "file": "pilates_4.png",
             "alt": "Image 0"
@@ -57,8 +52,7 @@
             "alt": "Image 1"
         }
     ],
-    "videos": [
-        {
+    "videos": [{
             "id": "0",
             "ogg": "0.ogg",
             "mp4": "0.mp4",

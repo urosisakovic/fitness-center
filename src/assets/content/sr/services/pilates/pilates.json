@@ -1,8 +1,7 @@
 {
     "name": "Pilates",
     "desc": "Pilates (/ pɪˈlɑːtɪz /; nemački: [piˈlaːtəs]) je sistem fizičke kondicije koji je početkom 20. veka razvio Joseph Pilates, po kome je i dobio ime. Pilates je svoju metodu nazvao 'Kontrologija'. Praktikuje se širom sveta, posebno u zapadnim državama poput Australije, Kanade, Sjedinjenih Država i Velike Britanije. Od 2005. godine, u Sjedinjenim Državama je 11 miliona ljudi redovno praktikovalo ovu disciplinu uz 14.000 instruktora.",
-    "images1": [
-        {
+    "images1": [{
             "id": "0",
             "file": "pilates_0.png",
             "alt": "Image 0"
@@ -22,10 +21,8 @@
             "file": "pilates_3.png",
             "alt": "Image 1"
         }
-
     ],
-    "images2": [
-        {
+    "images2": [{
             "id": "4",
             "file": "pilates_4.png",
             "alt": "Image 0"
@@ -46,24 +43,23 @@
             "alt": "Image 1"
         }
     ],
-    "trainings": [
-        {
+    "trainings": [{
             "id": "0",
             "name": "Klasični pilates",
             "duration": "60",
-            "diff":  4
+            "diff": 4
         },
         {
             "id": "1",
             "name": "Pilates na strunjačama",
             "duration": "45",
-            "diff":  3
+            "diff": 3
         },
         {
             "id": "2",
             "name": "Reformer pilates",
             "duration": "90",
-            "diff":  5
+            "diff": 5
         }
     ]
 }

@@ -117,7 +117,6 @@
                 }
             ]
         },
-
         {
             "type": "pilates",
             "trainings": [
@@ -165,7 +164,6 @@
                 }
             ]
         },
-
         {
             "type": "core",
             "trainings": [
@@ -213,7 +211,6 @@
                 }
             ]
         },
-
         {
             "type": "cardio",
             "trainings": [

@@ -1,8 +1,7 @@
 {
     "name": "Treninzi",
     "desc": "Trening podučava ili razvija u Vama sve veštine i znanja koje Vam mogu koristiti u bilo kojoj vrsti takmičenja. Obuka ima specifične ciljeve unapređenja nečijih sposobnosti, kapaciteta, produktivnosti i performansi. Da biste proverili našu raznolikost obuka, kliknite na jednu od opcija u meniju.",
-    "images1": [
-        {
+    "images1": [{
             "id": "0",
             "file": "cardio_0.png",
             "alt": "Image 0"
@@ -22,10 +21,8 @@
             "file": "yoga_3.png",
             "alt": "Image 1"
         }
-
     ],
-    "images2": [
-        {
+    "images2": [{
             "id": "4",
             "file": "core_5.png",
             "alt": "Image 0"
@@ -46,8 +43,7 @@
             "alt": "Image 1"
         }
     ],
-    "videos": [
-        {
+    "videos": [{
             "id": "0",
             "ogg": "0.ogg",
             "mp4": "0.mp4",

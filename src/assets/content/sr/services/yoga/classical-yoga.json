@@ -4,8 +4,7 @@
     "duration": "60",
     "diff": "3",
     "avg_mark": "4.2",
-    "comments": [
-        {
+    "comments": [{
             "id": "0",
             "author": "Anja Markovic",
             "text": "I have been training classical yoga for over a year now! The benefits are outstanding. I couldn't imagine a week going by without my yoga classes.",
@@ -18,8 +17,7 @@
             "date": "08-05-2020"
         }
     ],
-    "images1": [
-        {
+    "images1": [{
             "id": "0",
             "file": "yoga_0.png",
             "alt": "Image 0"
@@ -39,10 +37,8 @@
             "file": "yoga_3.png",
             "alt": "Image 1"
         }
-
     ],
-    "images2": [
-        {
+    "images2": [{
             "id": "4",
             "file": "yoga_4.png",
             "alt": "Image 0"
@@ -63,8 +59,7 @@
             "alt": "Image 1"
         }
     ],
-    "videos": [
-        {
+    "videos": [{
             "id": "0",
             "ogg": "0.ogg",
             "mp4": "0.mp4",

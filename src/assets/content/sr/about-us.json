@@ -1,6 +1,5 @@
 {
-    "paragraphs": [
-        {
+    "paragraphs": [{
             "id": "0",
             "text": "Fitness centre nudi veliki izbor grupnih treninga, kao i stalno prisutno, ljubazno osoblje, koje je uvek na raspolaganju. Fitnes instruktori i treneri Fitness centre su profesionalci sa dugogodišnjim trenerskim iskustvom, i sa specijalizacijom za određeni tip vežbanja."
         },
@@ -17,8 +16,7 @@
             "text": "Ukoliko želite da nastavite svoje fitnes navike, profesionalni ste sportista ili rekreativac, entuzijasta početnik, u ovom sportskom objektu pronaći ćete najbolju fizičku aktivnost za vas."
         }
     ],
-    "images1": [
-        {
+    "images1": [{
             "id": "0",
             "file": "cardio_0.png",
             "alt": "Image 0"
@@ -38,10 +36,8 @@
             "file": "yoga_3.png",
             "alt": "Image 1"
         }
-
     ],
-    "images2": [
-        {
+    "images2": [{
             "id": "4",
             "file": "core_5.png",
             "alt": "Image 0"

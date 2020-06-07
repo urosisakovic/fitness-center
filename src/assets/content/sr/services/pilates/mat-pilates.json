@@ -4,11 +4,8 @@
     "duration": "60",
     "diff": "4",
     "avg_mark": "4.6",
-    "comments": [
-        
-    ],
-    "images1": [
-        {
+    "comments": [],
+    "images1": [{
             "id": "0",
             "file": "pilates_0.png",
             "alt": "Image 0"
@@ -28,10 +25,8 @@
             "file": "pilates_3.png",
             "alt": "Image 1"
         }
-
     ],
-    "images2": [
-        {
+    "images2": [{
             "id": "4",
             "file": "pilates_4.png",
             "alt": "Image 0"
@@ -52,8 +47,7 @@
             "alt": "Image 1"
         }
     ],
-    "videos": [
-        {
+    "videos": [{
             "id": "0",
             "ogg": "0.ogg",
             "mp4": "0.mp4",

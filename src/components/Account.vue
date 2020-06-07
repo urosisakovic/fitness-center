@@ -1,27 +1,39 @@
 <template>
   <div class="container" id="acc-wrap">
     <div style="text-align: center; margin-bottom: 50px;">
-      <img :src="getImgUrl(content.image)" class="rounded-circle">
+      <img :src="getImgUrl(content.image)" class="rounded-circle" />
       <h1>{{ content.name }}</h1>
     </div>
 
-    <h2> {{ words.bookedTr }} </h2>
-    <table id="tr-table" class="table table-striped table-dark" style="text-align: center;" :key="changeTable">
+    <h2>{{ words.bookedTr }}</h2>
+    <table
+      id="tr-table"
+      class="table table-striped table-dark"
+      style="text-align: center;"
+      :key="changeTable"
+    >
       <thead>
         <tr>
-          <td> {{ words.training }} </td>
-          <td> {{ words.date }} </td>
-          <td> {{ words.time }} </td>
-          <td> {{ words.cancelTr }} </td>
+          <td>{{ words.training }}</td>
+          <td>{{ words.date }}</td>
+          <td>{{ words.time }}</td>
+          <td>{{ words.cancelTr }}</td>
         </tr>
       </thead>
 
       <tbody>
         <tr v-for="training in content.trainings" :key="training.id">
-          <td> {{ training.name }}{{ training.subtype }} </td>
-          <td> {{ training.date }} </td>
-          <td> {{ training.time }} </td>
-          <td> <button type="button" :class="'btn btn-danger ' + disabledClass(training.id)" :disabled="isDisabled(training.id)" v-on:click="cancelTr(training.id)"> {{ words.cancel }} </button> </td>
+          <td>{{ training.name }}{{ training.subtype }}</td>
+          <td>{{ training.date }}</td>
+          <td>{{ training.time }}</td>
+          <td>
+            <button
+              type="button"
+              :class="'btn btn-danger ' + disabledClass(training.id)"
+              :disabled="isDisabled(training.id)"
+              v-on:click="cancelTr(training.id)"
+            >{{ words.cancel }}</button>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -34,16 +46,16 @@ export default {
     return {
       words: {},
       changeTable: true
-    }
+    };
   },
   props: {
-      content: {
-          required: true
-      }
+    content: {
+      required: true
+    }
   },
   methods: {
     getImgUrl: function(pic) {
-      return require('../assets/images/' + pic)
+      return require("../assets/images/" + pic);
     },
 
     getYear: function(tr) {
@@ -93,32 +105,26 @@ export default {
         0,
         0
       );
-      
+
       var diff = trDate - currDate;
 
-      if (diff > 1800000)
-        return true;
-      else
-        return false;
+      if (diff > 1800000) return true;
+      else return false;
     },
 
     isDisabled: function(id) {
       for (var i = 0; i < this.content.trainings.length; i++) {
         var tr = this.content.trainings[i];
         if (tr.id == id) {
-          if (this.isMoreThan30Min(tr))
-            return false;
-          else
-            return true;
+          if (this.isMoreThan30Min(tr)) return false;
+          else return true;
         }
       }
     },
 
     disabledClass: function(id) {
-      if (this.isDisabled(id))
-        return "disabled"
-      else
-        return "";
+      if (this.isDisabled(id)) return "disabled";
+      else return "";
     },
 
     cancelTr(id) {
@@ -132,14 +138,11 @@ export default {
     },
 
     englishLanguage: function() {
-			var currUrl = this.$route.path;
+      var currUrl = this.$route.path;
 
-			if (currUrl.startsWith("/en"))
-				return true;
-			else if (currUrl.startsWith("/sr"))
-				return false;
-			else
-				return true;
+      if (currUrl.startsWith("/en")) return true;
+      else if (currUrl.startsWith("/sr")) return false;
+      else return true;
     },
 
     getNextId: function() {
@@ -151,14 +154,13 @@ export default {
       return maxId + 1;
     }
   },
-	mounted() {
-		if (this.englishLanguage())
-			this.words = require("../assets/content/en/dictionary.json").myaccount
-		else
-			this.words = require("../assets/content/sr/dictionary.json").myaccount
-    
-    var retrievedObject = JSON.parse(localStorage.getItem('testObject'));
-  
+  mounted() {
+    if (this.englishLanguage())
+      this.words = require("../assets/content/en/dictionary.json").myaccount;
+    else this.words = require("../assets/content/sr/dictionary.json").myaccount;
+
+    var retrievedObject = JSON.parse(localStorage.getItem("testObject"));
+
     console.log("retrievedObject: " + retrievedObject);
 
     if (retrievedObject) {
@@ -166,7 +168,7 @@ export default {
       this.content.trainings.push(retrievedObject);
     }
   }
-}
+};
 </script>
 
 <style scoped>

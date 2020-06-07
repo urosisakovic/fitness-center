@@ -13,45 +13,36 @@
         "copyright": "Department for Software Engineering, University of Belgrade, School of Electrical Engineering",
         "navigation": "Navigation"
     },
-
     "trainings": {
         "trainings": "Trainings",
         "schedule": "schedule",
         "Schedule": "at the GYM",
-
         "yoga": "yoga",
         "Yoga": "Yoga",
         "yoga1": "Classical Yoga",
         "yoga2": "Hatha Yoga",
         "yoga3": "Jain Yoga",
-
-
         "pilates": "pilates",
         "Pilates": "Pilates",
         "pilates1": "Classical Pilates",
         "pilates2": "Mat Pilates",
         "pilates3": "Reformer Pilates",
-
-
         "core": "core",
         "Core": "Core",
         "core1": "Strengthening back musculature",
         "core2": "Intra-abdominal pressure",
         "core3": "Martial Arts Core Excercises",
-
         "cardio": "cardio",
         "Cardio": "Cardio",
         "cardio1": "Sprinting",
         "cardio2": "High-intensity interval training",
         "cardio3": "Cycling"
     },
-
     "contact": {
         "address": "Address",
         "email": "Email",
         "telephone": "Telephone"
     },
-
     "myaccount": {
         "bookedTr": "Booked trainings",
         "training": "Training",
@@ -60,7 +51,6 @@
         "cancelTr": "Cancel Training",
         "cancel": "Cancel"
     },
-
     "book": {
         "fn": "First Name",
         "enterFn": "Enter First Name",
@@ -76,7 +66,6 @@
         "downloadPdf": "Download PDF Report",
         "submit": "Submit",
         "successMsg": "You have successfully booked an appointment!",
-
         "chooseTr": "Choose Your Perfect Training",
         "trainingType": "Training Type",
         "training": "Training",
@@ -87,27 +76,23 @@
         "comeAndJoin": "Come and Join Us!",
         "book": "Book"
     },
-
-    "options": [
-        {
-          "id": "0",
-          "text": "Classical Yoga"
+    "options": [{
+            "id": "0",
+            "text": "Classical Yoga"
         },
         {
-          "id": "1",
-          "text": "Hatha Yoga"
+            "id": "1",
+            "text": "Hatha Yoga"
         },
         {
-          "id": 2,
-          "text": "Jain Yoga"
+            "id": 2,
+            "text": "Jain Yoga"
         }
     ],
-
     "home": {
         "bestTr": "Popular Trainings",
         "bestTrPara": "Most recommened by our users: ",
-        "popular": [
-            {
+        "popular": [{
                 "id": "0",
                 "name": "Classical Yoga",
                 "link": "/services/training/yoga/classical-yoga"
@@ -124,7 +109,6 @@
             }
         ]
     },
-
     "tr1": {
         "tableCaption": "Choose your perfect training type",
         "name": "Name",
@@ -141,6 +125,13 @@
         "rateCaption": "Rate this training",
         "comments": "Comments",
         "leaveComment": "Leave a comment",
-        "commentTextArea": "Tell us about your experience regarding this training session!"
+        "commentTextArea": "Tell us about your experience regarding this training session!",
+        "sortBy": "Sort by",
+        "nameAsc": "Name - ascending",
+        "nameDes": "Name - descending",
+        "difficultyAsc": "Difficulty - ascending",
+        "difficultyDes": "Difficulty - descending",
+        "durationAsc": "Duration - ascending",
+        "durationDes": "Duration - descending"
     }
 }

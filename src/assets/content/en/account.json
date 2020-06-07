@@ -1,8 +1,7 @@
 {
     "name": "Vukasin Draskovic",
     "image": "vukasin.png",
-    "trainings": [
-        {
+    "trainings": [{
             "id": "0",
             "name": "Classical Yoga",
             "date": "06-06-2020",
@@ -21,8 +20,7 @@
             "time": "14:00"
         }
     ],
-    "attended": [
-        {
+    "attended": [{
             "type": "Yoga",
             "subtype": "classical-yoga"
         },

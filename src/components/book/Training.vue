@@ -1,24 +1,24 @@
 <template>
   <div class="container">
-    <h2> {{ words.chooseTr}} </h2>
+    <h2>{{ words.chooseTr}}</h2>
 
     <div class="form-group">
-      <label for="input-fn"> {{ words.trainingType }}</label>
+      <label for="input-fn">{{ words.trainingType }}</label>
       <select id="dd-type-select" class="form-control" v-on:change="typeSelect()">
-        <option value="yoga"> {{ trainings.Yoga }} </option>
+        <option value="yoga">{{ trainings.Yoga }}</option>
         <option value="pilates">{{ trainings.Pilates }}</option>
         <option value="core">{{ trainings.Core }}</option>
         <option value="cardio">{{ trainings.Cardio }}</option>
       </select>
     </div>
     <div class="form-group" :key="subtype">
-      <label for="input-fn"> {{ words.training}} </label>
+      <label for="input-fn">{{ words.training}}</label>
       <select id="dd-sub-type-select" class="form-control" v-on:change="subTypeSelect()">
-      <option v-for="option in options" :key="option.id">{{ option.text }}</option>
-    </select>
+        <option v-for="option in options" :key="option.id">{{ option.text }}</option>
+      </select>
     </div>
 
-    <h2> {{ words.available }} </h2>
+    <h2>{{ words.available }}</h2>
     <table class="table table-striped table-dark" style="text-align: center">
       <thead>
         <tr>
@@ -31,15 +31,19 @@
 
       <tbody>
         <tr v-for="training in curr_trainings" :key="training.id">
-          <td> {{ training.date }} </td>
-          <td> {{ training.time }}</td>
-          <td> {{ training.placesLeft }}</td>
-          <td> <button type="button" class="btn btn-primary" v-on:click="book(training.id)">{{ words.book }}</button> </td>
+          <td>{{ training.date }}</td>
+          <td>{{ training.time }}</td>
+          <td>{{ training.placesLeft }}</td>
+          <td>
+            <button
+              type="button"
+              class="btn btn-primary"
+              v-on:click="book(training.id)"
+            >{{ words.book }}</button>
+          </td>
         </tr>
       </tbody>
-
     </table>
-
   </div>
 </template>
 
@@ -52,7 +56,7 @@ export default {
       words: {},
       trainings: {},
       subtype: true
-    }
+    };
   },
   props: {
     content: {
@@ -83,14 +87,11 @@ export default {
     },
 
     englishLanguage: function() {
-			var currUrl = this.$route.path;
+      var currUrl = this.$route.path;
 
-			if (currUrl.startsWith("/en"))
-				return true;
-			else if (currUrl.startsWith("/sr"))
-				return false;
-			else
-				return true;
+      if (currUrl.startsWith("/en")) return true;
+      else if (currUrl.startsWith("/sr")) return false;
+      else return true;
     },
 
     refreshTable: function() {
@@ -98,14 +99,20 @@ export default {
       var subTypeSelectField = document.getElementById("dd-sub-type-select");
 
       var type = typeSelectField.options[typeSelectField.selectedIndex].text;
-      var subtype = subTypeSelectField.options[subTypeSelectField.selectedIndex].text;
+      var subtype =
+        subTypeSelectField.options[subTypeSelectField.selectedIndex].text;
 
       this.curr_trainings = [];
 
       for (var i = 0; i < this.content.trainings.length; i++) {
-        if (this.content.trainings[i].type.toLowerCase() == type.toLowerCase()) {
+        if (
+          this.content.trainings[i].type.toLowerCase() == type.toLowerCase()
+        ) {
           for (var j = 0; j < this.content.trainings[i].trainings.length; j++) {
-            if (this.content.trainings[i].trainings[j].subtype.toLowerCase() == subtype.toLowerCase())
+            if (
+              this.content.trainings[i].trainings[j].subtype.toLowerCase() ==
+              subtype.toLowerCase()
+            )
               this.curr_trainings.push(this.content.trainings[i].trainings[j]);
           }
         }
@@ -128,26 +135,24 @@ export default {
 
       training.placesLeft--;
 
-      localStorage.setItem('testObject', JSON.stringify(training));
-      console.log('testObject: ' + training);
+      localStorage.setItem("testObject", JSON.stringify(training));
+      console.log("testObject: " + training);
 
       console.log("Success");
     }
-
   },
   mounted() {
     var language = "";
 
     if (this.englishLanguage())
       language = require("../../assets/content/en/dictionary.json");
-		else
-			language = require("../../assets/content/sr/dictionary.json");
-    
+    else language = require("../../assets/content/sr/dictionary.json");
+
     this.words = language.book;
     this.trainings = language.trainings;
     this.options = language.options;
 
     setTimeout(() => this.refreshTable(), 50);
   }
-}
+};
 </script>

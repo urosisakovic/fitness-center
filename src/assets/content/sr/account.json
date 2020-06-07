@@ -1,8 +1,7 @@
 {
     "name": "Vukasin Draskovic",
     "image": "vukasin.png",
-    "trainings": [
-        {
+    "trainings": [{
             "id": "0",
             "name": "Klasična joga",
             "date": "06-06-2020",

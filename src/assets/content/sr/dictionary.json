@@ -13,43 +13,36 @@
         "copyright": "Odsek za softversko inženjerstvo, Univerzitet u Beograd, Elektrotehnički fakultet",
         "navigation": "Navigacija"
     },
-
     "trainings": {
         "trainings": "Treninzi",
         "schedule": "raspored",
         "Schedule": "u GYM-u",
-        
         "yoga": "joga",
         "Yoga": "Joga",
         "yoga1": "Klasična joga",
         "yoga2": "Hatha joga",
         "yoga3": "Jain joga",
-
         "pilates": "pilates",
         "Pilates": "Pilates",
         "pilates1": "Klasični pilates",
         "pilates2": "Pilates na strunjačama",
         "pilates3": "Reformer pilates",
-
         "core": "jezgro",
         "Core": "Jezgro",
         "core1": "Ojačavanje leđne muskulature",
         "core2": "Intra-abdominalni pritisak",
         "core3": "Vežbe za jezgro pri borilačkim veštinama",
-
         "cardio": "kardio",
         "Cardio": "Kardio",
         "cardio1": "Sprint",
         "cardio2": "Intervalni trening visokog intenziteta",
         "cardio3": "Biciklizam"
     },
-
     "contact": {
         "address": "Adresa",
         "email": "Mejl",
         "telephone": "Telefon"
     },
-
     "myaccount": {
         "bookedTr": "Zakazani treninzi",
         "training": "Trening",
@@ -58,7 +51,6 @@
         "cancelTr": "Otkaži trening",
         "cancel": "Otkaži"
     },
-
     "book": {
         "fn": "Ime",
         "enterFn": "Unesite ime",
@@ -74,7 +66,6 @@
         "downloadPdf": "Preuzmite PDF izveštaj",
         "submit": "Potvrdite",
         "successMsg": "Uspešno ste rezervisali termin!",
-
         "chooseTr": "Izaberite Vaš idealan trening",
         "trainingType": "Tip treninga",
         "training": "Trening",
@@ -85,27 +76,23 @@
         "comeAndJoin": "Zakaži trening!",
         "book": "Zakaži"
     },
-
-    "options": [
-        {
-          "id": "0",
-          "text": "Klasična joga"
+    "options": [{
+            "id": "0",
+            "text": "Klasična joga"
         },
         {
-          "id": "1",
-          "text": "Hatha joga"
+            "id": "1",
+            "text": "Hatha joga"
         },
         {
-          "id": 2,
-          "text": "Jain joga"
+            "id": 2,
+            "text": "Jain joga"
         }
     ],
-
     "home": {
         "bestTr": "Popularni treninzi",
         "bestTrPara": "Naši klijenti poručuju:",
-        "popular": [
-            {
+        "popular": [{
                 "id": "0",
                 "name": "Klasična joga",
                 "link": "/sr/services/training/yoga/classical-yoga"
@@ -122,7 +109,6 @@
             }
         ]
     },
-
     "tr1": {
         "tableCaption": "Izaberite Vaš idealan trening",
         "name": "Ime",
@@ -139,6 +125,13 @@
         "rateCaption": "Ocenite ovaj trening",
         "comments": "Komentari",
         "leaveComment": "Ostavite komentar",
-        "commentTextArea": "Kažite nam o Vašem iskustvu na ovom treningu!"
+        "commentTextArea": "Kažite nam o Vašem iskustvu na ovom treningu!",
+        "sortBy": "Poredjaj po",
+        "nameAsc": "Ime - rastuće",
+        "nameDes": "Ime - opadajuće",
+        "difficultyAsc": "Težina - rastuće",
+        "difficultyDes": "Težina - opadajuće",
+        "durationAsc": "Trajanje - rastuće",
+        "durationDes": "Trajanje - opadajuće"
     }
 }

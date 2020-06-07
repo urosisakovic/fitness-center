@@ -1,9 +1,7 @@
 {
-    "types": [
-        {
+    "types": [{
             "name": "yoga",
-            "subtypes": [
-                {
+            "subtypes": [{
                     "id": "0",
                     "text": "Classical Yoga"
                 },
@@ -19,8 +17,7 @@
         },
         {
             "name": "pilates",
-            "subtypes": [
-                {
+            "subtypes": [{
                     "id": "0",
                     "text": "Classical Pilates"
                 },
@@ -36,8 +33,7 @@
         },
         {
             "name": "cardio",
-            "subtypes": [
-                {
+            "subtypes": [{
                     "id": "0",
                     "text": "Sprinting"
                 },
@@ -53,8 +49,7 @@
         },
         {
             "name": "core",
-            "subtypes": [
-                {
+            "subtypes": [{
                     "id": "0",
                     "text": "Strengthening back musculature"
                 },
@@ -69,11 +64,9 @@
             ]
         }
     ],
-    "trainings": [
-        {
+    "trainings": [{
             "type": "yoga",
-            "trainings": [
-                {
+            "trainings": [{
                     "id": "0",
                     "subtype": "Classical Yoga",
                     "date": "20-06-2020",
@@ -117,11 +110,9 @@
                 }
             ]
         },
-
         {
             "type": "pilates",
-            "trainings": [
-                {
+            "trainings": [{
                     "id": "0",
                     "subtype": "Classical Pilates",
                     "date": "23-06-2020",
@@ -165,11 +156,9 @@
                 }
             ]
         },
-
         {
             "type": "core",
-            "trainings": [
-                {
+            "trainings": [{
                     "id": "0",
                     "subtype": "Strengthening back musculature",
                     "date": "20-06-2020",
@@ -213,11 +202,9 @@
                 }
             ]
         },
-
         {
             "type": "cardio",
-            "trainings": [
-                {
+            "trainings": [{
                     "id": "0",
                     "subtype": "Sprinting",
                     "date": "24-06-2020",

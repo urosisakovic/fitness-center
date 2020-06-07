@@ -41,7 +41,7 @@
           </tr>
         </thead>
 
-        <tbody>
+        <tbody :key="tableRerender">
           <tr v-for="training in content.trainings" :key="training.id">
             <td>{{training.name}}</td>
             <td>{{training.duration}}'</td>
@@ -96,7 +96,8 @@ export default {
   },
   data() {
     return {
-      words: {}
+      words: {},
+      tableRerender: true
     };
   },
   props: {
@@ -138,13 +139,49 @@ export default {
       var sortByChoice = document.getElementById("dd-sort-by");
       var sortByValue = sortByChoice.options[sortByChoice.selectedIndex].value;
 
-      console.log(sortByValue);
+      if (sortByValue == "nameAsc") {
+        console.log("nameAsc");
+        this.content.trainings.sort(function(a, b) {
+          return a.name > b.name;
+        });
+      } else if (sortByValue == "nameDes") {
+        console.log("nameDesc");
+        this.content.trainings.sort(function(a, b) {
+          return a.name < b.name;
+        });
+      } else if (sortByValue == "diffAsc") {
+        console.log("diffAsc");
+        this.content.trainings.sort(function(a, b) {
+          return a.diff > b.diff;
+        });
+      } else if (sortByValue == "diffDes") {
+        console.log("diffDesc");
+        this.content.trainings.sort(function(a, b) {
+          return a.diff < b.diff;
+        });
+      } else if (sortByValue == "durAsc") {
+        console.log("durAsc");
+        this.content.trainings.sort(function(a, b) {
+          return a.duration > b.duration;
+        });
+      } else if (sortByValue == "durDes") {
+        console.log("durDes");
+        this.content.trainings.sort(function(a, b) {
+          return a.duration < b.duration;
+        });
+      }
+
+      this.tableRerender = !this.tableRerender;
     }
   },
   mounted() {
     if (this.englishLanguage())
       this.words = require("../../assets/content/en/dictionary.json").tr1;
     else this.words = require("../../assets/content/sr/dictionary.json").tr1;
+
+    this.content.trainings.sort(function(a, b) {
+      return a.name > b.name;
+    });
   }
 };
 </script>
